@@ -1,0 +1,6244 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "label": "Does your dataset contain information that identifies directly a natural person, without the need for additional information?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 133.400231496063,
+            "y": 91.7981401574803
+        },
+        {
+            "id": "5",
+            "label": "Yes\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 130.9304984251968,
+            "y": 91.24712677165354
+        },
+        {
+            "id": "7",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 135.657931496063,
+            "y": 90.47654015748029
+        },
+        {
+            "id": "18",
+            "label": "Is the data that you process fall under any of these special categories\u00a0of personal data?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 116.8438330708661,
+            "y": 59.93078661417322
+        },
+        {
+            "id": "20",
+            "label": "Yes, BUT:\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 99.89996614173228,
+            "y": 54.45051338582676
+        },
+        {
+            "id": "23",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 118.5793661417323,
+            "y": 53.62912677165355
+        },
+        {
+            "id": "30",
+            "label": "The data subject has given explicit consent to the processing of those personal data for one or more specified purposes\nexcept where Union or Member State law provide that the prohibition\u00a0 of processing may not be lifted by the data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 72.26536614173227,
+            "y": 52.99802677165355
+        },
+        {
+            "id": "38",
+            "label": "Processing is necessary for the purposes of carrying out the obligations and exercising specific rights of the controller or of the data subject in the field of employment and social security and social protection law in so far as it is authorised by Union or Member State law or a collective agreement pursuant to Member State law providing for appropriate safeguards for the fundamental rights and the interests of the data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 76.35216614173228,
+            "y": 52.99792677165355
+        },
+        {
+            "id": "44",
+            "label": "Processing is necessary to protect the vital interest of the data subject or another natural person where the data subject is physically or legally incapable of giving consent\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 80.20546614173227,
+            "y": 53.29562677165355
+        },
+        {
+            "id": "49",
+            "label": "Processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 84.34876614173228,
+            "y": 52.99782677165354
+        },
+        {
+            "id": "58",
+            "label": "Processing relates to personal data which are manifestly made public by the data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 88.69016614173228,
+            "y": 53.18112677165355
+        },
+        {
+            "id": "62",
+            "label": "Processing is necessary for the establishment, exercise or defence of legal claims or whenever courts are acting in their judicial capacity\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 92.16266614173227,
+            "y": 53.06662677165355
+        },
+        {
+            "id": "66",
+            "label": "Processing is necessary for reasons of substantial public interest, on the basis of Union or Member State law which shall be proportionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject;\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 95.73976614173228,
+            "y": 52.74362677165355
+        },
+        {
+            "id": "81",
+            "label": "Processing is necessary for the purposes of preventive or occupational medicine, for the assessment of the working capacity of the employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services on the basis of Union or Member State law or pursuant to contract with a health professional and subject to the conditions and safeguards referred to in paragraph 3;\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 99.90006614173228,
+            "y": 52.55632677165355
+        },
+        {
+            "id": "83",
+            "label": "Processing is necessary for reasons of public interest in the area of public health, such as protecting against serious cross-border threats to health or ensuring high standards of quality and safety of health care and of medicinal products or medical devices, on the basis of Union or Member State law which provides for suitable and specific measures to safeguard the rights and freedoms of the data subject, in particular professional secrecy\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 104.7332661417323,
+            "y": 52.74372677165356
+        },
+        {
+            "id": "86",
+            "label": "Processing is necessary for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) based on Union or Member State law which shall be propor tionate to the aim pursued, respect the essence of the right to data protection and provide for suitable and specific measures to safeguard the fundamental rights and the interests of the data subject.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 109.0989661417323,
+            "y": 52.31632677165354
+        },
+        {
+            "id": "119",
+            "label": "Yes to at least one of the above\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 87.16606614173227,
+            "y": 48.26632677165355
+        },
+        {
+            "id": "123",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 90.60386614173228,
+            "y": 48.26632677165355
+        },
+        {
+            "id": "135",
+            "label": "Are data anonymised?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 90.60386614173228,
+            "y": 46.54452677165354
+        },
+        {
+            "id": "139",
+            "label": "Data can be processed\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 88.80866614173229,
+            "y": 44.07202677165356
+        },
+        {
+            "id": "145",
+            "label": "Data cannot be processed\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 92.19796614173228,
+            "y": 44.04592677165356
+        },
+        {
+            "id": "149",
+            "label": "Yes\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 88.80876614173226,
+            "y": 45.45232677165355
+        },
+        {
+            "id": "151",
+            "label": "No\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 92.19796614173228,
+            "y": 45.45222677165354
+        },
+        {
+            "id": "184",
+            "label": "Processing of data could reveal\u00a0racial or ethnic origin\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 109.7597661417323,
+            "y": 56.63342677165355
+        },
+        {
+            "id": "186",
+            "label": "Processing of data could reveal political opinions\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 111.5163661417323,
+            "y": 56.63342677165355
+        },
+        {
+            "id": "188",
+            "label": "Processing of data could reveal religious or philosophical beliefs\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 113.2925661417323,
+            "y": 56.63332677165354
+        },
+        {
+            "id": "189",
+            "label": "Processing of data could reveal\u00a0trade union membership\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 115.1527661417323,
+            "y": 56.63352677165354
+        },
+        {
+            "id": "198",
+            "label": "Processing of genetic data\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 116.8436661417323,
+            "y": 56.63322677165355
+        },
+        {
+            "id": "204",
+            "label": "Processing of\u00a0biometric data for the purpose of uniquely identifying a natural person\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 118.6386661417323,
+            "y": 56.61472677165354
+        },
+        {
+            "id": "207",
+            "label": "Processing of\u00a0biometric data for the purpose of uniquely identifying a natural person\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 120.6425661417323,
+            "y": 56.63422677165355
+        },
+        {
+            "id": "217",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 116.8436661417323,
+            "y": 55.12492677165354
+        },
+        {
+            "id": "233",
+            "label": "Processing of health data\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 122.4717661417323,
+            "y": 56.63442677165354
+        },
+        {
+            "id": "235",
+            "label": "Processing of data concerning sex life or sexual orientation\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 123.9592661417323,
+            "y": 56.63452677165356
+        },
+        {
+            "id": "246",
+            "label": "GDPR does not apply\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 137.1603984251969,
+            "y": 78.29302677165353
+        },
+        {
+            "id": "264",
+            "label": "Have you removed any\u00a0identifiers (e.g. name, identification number, location data, online identifier or  one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person)?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 129.650131496063,
+            "y": 90.0427401574803
+        },
+        {
+            "id": "268",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 127.472131496063,
+            "y": 89.2781401574803
+        },
+        {
+            "id": "269",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 131.450631496063,
+            "y": 88.6702401574803
+        },
+        {
+            "id": "272",
+            "label": "Have you replaced these identifiers with a code or a token?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 134.156031496063,
+            "y": 86.28324015748032
+        },
+        {
+            "id": "274",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 133.735631496063,
+            "y": 85.1850401574803
+        },
+        {
+            "id": "279",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 134.576331496063,
+            "y": 85.1952401574803
+        },
+        {
+            "id": "281",
+            "label": "Data is pseudonymised\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 132.976831496063,
+            "y": 84.0282401574803
+        },
+        {
+            "id": "285",
+            "label": "Do you or any third party possess additional information that could help you\u00a0indirectly link the dataset to a specific natural person? Elements to be taken into account: reasonable likeliness of linkage, role and capabilities of actors involved, objective factors (e.g. financial cost, amount of time required for identification, technologies available)\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 127.472131496063,
+            "y": 87.48494015748031
+        },
+        {
+            "id": "287",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 125.823831496063,
+            "y": 84.78144015748029
+        },
+        {
+            "id": "289",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 127.472131496063,
+            "y": 85.30684015748031
+        },
+        {
+            "id": "297",
+            "label": "Data are anonymised/anonymous\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 129.958331496063,
+            "y": 83.9137401574803
+        },
+        {
+            "id": "303",
+            "label": "Your dataset does not contain personal data\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Subprocess",
+            "reverse_engineering_type": "Intermediate Conclusion",
+            "x": 135.930231496063,
+            "y": 83.2517401574803
+        },
+        {
+            "id": "308",
+            "label": "Your dataset contains personal data\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Subprocess",
+            "reverse_engineering_type": "Intermediate Conclusion",
+            "x": 130.739231496063,
+            "y": 82.41124015748031
+        },
+        {
+            "id": "312",
+            "label": "Are you established in the EU?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 130.739231496063,
+            "y": 80.81404015748032
+        },
+        {
+            "id": "316",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 128.7997984251968,
+            "y": 80.07522677165355
+        },
+        {
+            "id": "317",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 132.313631496063,
+            "y": 79.95244015748031
+        },
+        {
+            "id": "320",
+            "label": "Is your dataset containing data of natural persons in the EU?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 133.641231496063,
+            "y": 78.55294015748032
+        },
+        {
+            "id": "322",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 134.504131496063,
+            "y": 77.2876401574803
+        },
+        {
+            "id": "323",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 132.811131496063,
+            "y": 77.2876401574803
+        },
+        {
+            "id": "329",
+            "label": "Are your processing activities related to either:\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 132.811131496063,
+            "y": 76.25054015748032
+        },
+        {
+            "id": "332",
+            "label": "Offering goods or services to such natural persons, irrespective of any payment requirements?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 131.634331496063,
+            "y": 74.17769015748033
+        },
+        {
+            "id": "337",
+            "label": "Monitoring of the behaviour of such natural persons, insofar as such behaviour takes place within the EU?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 134.565081496063,
+            "y": 74.14039015748031
+        },
+        {
+            "id": "343",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 132.995931496063,
+            "y": 72.9890401574803
+        },
+        {
+            "id": "348",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 129.168031496063,
+            "y": 72.55612677165354
+        },
+        {
+            "id": "349",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 133.822131496063,
+            "y": 72.19354015748033
+        },
+        {
+            "id": "357",
+            "label": "Does your processing include\u00a0personal data relating to criminal convictions and offences or related security measures?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 114.8199,
+            "y": 45.10332677165354
+        },
+        {
+            "id": "359",
+            "label": "Yes\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 114.819831496063,
+            "y": 46.27092677165354
+        },
+        {
+            "id": "360",
+            "label": "No\u00a0",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 118.5601984251968,
+            "y": 46.27092677165354
+        },
+        {
+            "id": "365",
+            "label": "Can processing of personal data can be based on any of the following?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 118.5793661417323,
+            "y": 51.27782677165354
+        },
+        {
+            "id": "370",
+            "label": "Consent\u00a0\u2013\u00a0the data subject has given consent to the processing of their personal data for one or more specific\u00a0purposes\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 112.0873661417323,
+            "y": 48.74781338582677
+        },
+        {
+            "id": "374",
+            "label": "Contract\u00a0\u2013 processing is necessary for the performance of a contract to which the data subject is party orin order totake steps at the request of the data subject prior toentering intoa contrac\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 114.2991984251968,
+            "y": 48.45392677165356
+        },
+        {
+            "id": "375",
+            "label": "\u00a0\nLegal obligation\u00a0\u2013\u00a0processing is necessary for compliance with a legal obligation to which the controller is subjec\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 116.2439984251969,
+            "y": 48.45377677165354
+        },
+        {
+            "id": "376",
+            "label": "Protection of vital interests\u00a0\u2013\u00a0processing is necessary in order to protect the vital interests of the data subject or of another natural person\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 118.1888984251968,
+            "y": 48.45357677165355
+        },
+        {
+            "id": "377",
+            "label": "Public interest\u00a0/\u00a0official authority of the controller\u00a0\u2013\u00a0processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 120.0865984251968,
+            "y": 48.45372677165354
+        },
+        {
+            "id": "379",
+            "label": "Legitimate interest\u00a0\u2013 processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 122.7134984251968,
+            "y": 48.45372677165354
+        },
+        {
+            "id": "392",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#ddd6e5",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 117.1456984251968,
+            "y": 46.65322677165354
+        },
+        {
+            "id": "405",
+            "label": "Data cannot be processed\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 118.5601984251968,
+            "y": 43.12702677165354
+        },
+        {
+            "id": "409",
+            "label": "Yes\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 113.6788,
+            "y": 43.93572677165354
+        },
+        {
+            "id": "410",
+            "label": "No\u00a0",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 116.160231496063,
+            "y": 43.93572677165354
+        },
+        {
+            "id": "414",
+            "label": "Is it:\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 113.678931496063,
+            "y": 43.12702677165354
+        },
+        {
+            "id": "416",
+            "label": "done under the control of official authority?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 112.582331496063,
+            "y": 42.00672677165354
+        },
+        {
+            "id": "417",
+            "label": "specifically authorised by the EU or national law?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 114.609531496063,
+            "y": 42.00682677165354
+        },
+        {
+            "id": "424",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 113.567931496063,
+            "y": 41.35242677165356
+        },
+        {
+            "id": "429",
+            "label": "Yes\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 112.394531496063,
+            "y": 40.53032677165354
+        },
+        {
+            "id": "430",
+            "label": "No\u00a0",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 115.175931496063,
+            "y": 40.53042677165355
+        },
+        {
+            "id": "443",
+            "label": "Data can be processed\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 115.063631496063,
+            "y": 39.00812677165354
+        },
+        {
+            "id": "449",
+            "label": "Determine the  purposes and means of the data processing?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "Question Node",
+            "x": 115.6853984251968,
+            "y": 72.43792677165354
+        },
+        {
+            "id": "451",
+            "label": "*Add nuances*\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Document",
+            "reverse_engineering_type": "unknown",
+            "x": 138.776231496063,
+            "y": 84.5729401574803
+        },
+        {
+            "id": "469",
+            "label": "Process personal data on behalf of another organisation (i.e., data controller)?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 122.5878984251968,
+            "y": 72.45232677165353
+        },
+        {
+            "id": "476",
+            "label": "Do you: \n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 119.1366984251968,
+            "y": 74.05442677165354
+        },
+        {
+            "id": "488",
+            "label": "Does the personal data processing concern\u00a0any of the following scenarios?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 121.7667,
+            "y": 79.38212677165353
+        },
+        {
+            "id": "492",
+            "label": "Is the processing is performed in the course of\u00a0an activity which\u00a0falls outside the scope of EU law?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 117.2899984251968,
+            "y": 77.20392677165353
+        },
+        {
+            "id": "493",
+            "label": "Is the processing is performed by the\u00a0EU\u00a0Member States when carrying out activities\u00a0which fall within the scope of the common foreign and security policy?\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 120.1932984251968,
+            "y": 77.20392677165353
+        },
+        {
+            "id": "494",
+            "label": "Is the processing is performed\u00a0by a\u00a0natural person\u00a0in the course of\u00a0a purely personal or household activity?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 123.2115984251968,
+            "y": 77.20392677165353
+        },
+        {
+            "id": "495",
+            "label": "Is the processing is performed\u00a0by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security\u00a0(law enforcement exemption)?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 126.6954984251968,
+            "y": 77.29062677165354
+        },
+        {
+            "id": "510",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 122.2488984251968,
+            "y": 75.83342677165354
+        },
+        {
+            "id": "524",
+            "label": "GDPR applies\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 119.1365984251968,
+            "y": 75.13512677165355
+        },
+        {
+            "id": "532",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 123.5284984251968,
+            "y": 75.12482677165355
+        },
+        {
+            "id": "533",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 121.0428984251968,
+            "y": 75.13512677165355
+        },
+        {
+            "id": "538",
+            "label": "You are an independent data controller\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 119.7966984251968,
+            "y": 69.65442677165353
+        },
+        {
+            "id": "548",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 123.2347984251968,
+            "y": 71.44472677165354
+        },
+        {
+            "id": "550",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 121.9526984251968,
+            "y": 71.44462677165353
+        },
+        {
+            "id": "551",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 116.3264484216206,
+            "y": 71.42712676950777
+        },
+        {
+            "id": "552",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 114.9374984251968,
+            "y": 71.43742677165355
+        },
+        {
+            "id": "560",
+            "label": "You are a \ndata processor\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 123.0263984251968,
+            "y": 70.51027677165354
+        },
+        {
+            "id": "562",
+            "label": "Do you determine the means and purposes alone or with others?\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 116.3263984251968,
+            "y": 70.56822677165354
+        },
+        {
+            "id": "565",
+            "label": "Alone\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 117.4087984251968,
+            "y": 69.65422677165353
+        },
+        {
+            "id": "566",
+            "label": "With others\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 115.2520984251968,
+            "y": 69.65422677165353
+        },
+        {
+            "id": "572",
+            "label": "You are a joint data controller\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 112.5504984251968,
+            "y": 69.65422677165353
+        },
+        {
+            "id": "584",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 88.69016614173228,
+            "y": 50.87342677165356
+        },
+        {
+            "id": "605",
+            "label": "Ensure that you are respecting the following obligations:\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Subprocess",
+            "reverse_engineering_type": "Obligations Node",
+            "x": 109.2102984251968,
+            "y": 69.65472677165354
+        },
+        {
+            "id": "607",
+            "label": "Determination of your respective responsibilities for compliance with the obligations under the GDPR on the basis of an\u00a0arrangement\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 106.0519661417323,
+            "y": 69.65472677165354
+        },
+        {
+            "id": "613",
+            "label": "Exercise of rights of data subjects\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 98.76459842519682,
+            "y": 71.11072677165353
+        },
+        {
+            "id": "615",
+            "label": "Provision of information under Article 13 and 14\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 98.76469842519683,
+            "y": 70.38222677165354
+        },
+        {
+            "id": "620",
+            "label": "Determination of a data contact point for data subjects (Nice-to-have)\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 98.76459842519682,
+            "y": 69.56082677165352
+        },
+        {
+            "id": "624",
+            "label": "Making available of the essence of the arrangement to the data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 98.76459842519682,
+            "y": 68.64662677165353
+        },
+        {
+            "id": "645",
+            "label": "Ensure that you are respecting the following obligations:\n",
+            "shape_type": "Shape",
+            "color": "#fbd7bb",
+            "mp_name": "Subprocess",
+            "reverse_engineering_type": "unknown",
+            "x": 127.0444984251968,
+            "y": 66.95232677165353
+        },
+        {
+            "id": "1343",
+            "label": "IF you have onboarded a data processor, ensure the following:\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "unknown",
+            "x": 126.8361984251968,
+            "y": 65.82977677165354
+        },
+        {
+            "id": "651",
+            "label": "You use only processors providing sufficient guarantees to implement\u00a0appropriate technical\u00a0and organisational measures in such a manner that processing will meet the requirements of\u00a0the GDPR\u00a0and ensure the protection of the rights of the data subject.\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 132.5546984251969,
+            "y": 66.01652677165353
+        },
+        {
+            "id": "652",
+            "label": "You have a contract or other legal act under\u00a0EU or national\u00a0law, that is binding on the processor which includes all the following:\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 132.5548992125984,
+            "y": 64.61422677165353
+        },
+        {
+            "id": "1380",
+            "label": "Data Processing Agreement\n",
+            "shape_type": "Shape",
+            "color": "#fcebdd",
+            "mp_name": "Data",
+            "reverse_engineering_type": "unknown",
+            "x": 139.5096492125985,
+            "y": 73.79692677165355
+        },
+        {
+            "id": "1381",
+            "label": "Joint Controllers Agreement\n",
+            "shape_type": "Shape",
+            "color": "#fcebdd",
+            "mp_name": "Data",
+            "reverse_engineering_type": "unknown",
+            "x": 103.1044661417323,
+            "y": 69.65432677165353
+        },
+        {
+            "id": "663",
+            "label": "Irrespective of the terms of such arrangments, joint controllers are jointly and severally responsible for satisfying data subject requests\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 102.9745984251969,
+            "y": 72.20457677165354
+        },
+        {
+            "id": "667",
+            "label": "You have a contract or other legal act under\u00a0EU or national\u00a0law, that is binding on you and which includes all the following, including the obligations directly applicable to you:\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 132.5548984251969,
+            "y": 67.56402677165354
+        },
+        {
+            "id": "670",
+            "label": "Subject-matter and duration of the processing, the nature and purpose of the processing, the type of personal data and categories of data subjects and the obligations and rights of the controller\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6590661417323,
+            "y": 79.24752677165353
+        },
+        {
+            "id": "672",
+            "label": "That the processor\u00a0processes the personal data only on documented instructions from the controller, including with regard to transfers of personal data to a third country or an international organisation, unless required to do so by\u00a0the EU\u00a0or\u00a0national\u00a0law to which the processor is subject; in such a case, the processor shall inform the controller of that legal requirement before processing, unless that law prohibits such information on important grounds of public interest\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6589661417323,
+            "y": 77.61972677165355
+        },
+        {
+            "id": "673",
+            "label": "That\u00a0the processor\u00a0ensures that persons authorised to process the personal data have committed themselves to confidentiality or are under\u00a0an appropriate statutory\u00a0obligation of confidentiality\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6591984251969,
+            "y": 75.99192677165354
+        },
+        {
+            "id": "674",
+            "label": "That the processor\u00a0takes all measures\u00a0required\u00a0pursuant to\u00a0the security of processing (connection to where we describe Art. 32)\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6591984251969,
+            "y": 75.05152677165353
+        },
+        {
+            "id": "675",
+            "label": "That the processor\u00a0respects the conditions for engaging another processor\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6592661417323,
+            "y": 74.23612677165355
+        },
+        {
+            "id": "677",
+            "label": "Consent requirement from a data controller -\u00a0the processor\u00a0shall not engage another processor without prior specific or general written authorisation of the controller. In the case of general written authorisation, the processor shall inform the controller of any intended changes concerning the addition or replacement of other processors, thereby giving the controller the opportunity to object to such changes.\u00a0\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 152.8603484251969,
+            "y": 74.92652677165353
+        },
+        {
+            "id": "678",
+            "label": "Initial processor\u2019s liability and data processing agreement - where a processor engages another processor for carrying out specific processing activities on behalf of the controller, the same data protection obligations as set out in the contract or other legal act between the controller and the processor shall be imposed on that other processor by way of a contract or other legal act under EU or national law, in particular providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that the processing will meet the requirements of the GDPR. Where that other processor fails to fulfil its data protection obligations, the initial processor shall remain fully liable to the controller for the performance of that other processor's obligations.\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 152.8603661417323,
+            "y": 72.98272677165355
+        },
+        {
+            "id": "679",
+            "label": "That the processor is\u00a0taking into account\u00a0the nature of the processing,\u00a0assists\u00a0the controller by\u00a0appropriate technical\u00a0and organisational measures,\u00a0insofar as\u00a0this is possible, for the fulfilment of the controller's obligation to respond to requests for exercising the data subject's rights\u00a0(connection to where we describe data subjject rights)\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6590661417323,
+            "y": 72.90952677165353
+        },
+        {
+            "id": "680",
+            "label": "That the processor\u00a0assists the controller in ensuring compliance with the obligations pursuant to\u00a0notification of a data breach to supervisory authority, data subjects, conducting a data protection impact assessment (connections to relevant descriptions) and prior consultations with the supervisory authority,\u00a0taking into account the nature of processing and the information available to the processor\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6590661417323,
+            "y": 71.13232677165354
+        },
+        {
+            "id": "682",
+            "label": "That the processor\u00a0at the choice of the controller,\u00a0deletes\u00a0or returns all the personal data to the controller after the end of the provision of services relating to processing, and\u00a0deletes\u00a0existing copies unless\u00a0EU or national\u00a0law requires storage of the personal data\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6590484251969,
+            "y": 69.33062677165353
+        },
+        {
+            "id": "683",
+            "label": "That the processor\u00a0makes available to the controller all information necessary to\u00a0demonstrate\u00a0compliance with the obligations laid down in\u00a0data processing agreement and allow for and contribute to audits, including inspections, conducted by the controller or another auditor mandated by the controller.\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6589661417323,
+            "y": 67.89082677165354
+        },
+        {
+            "id": "698",
+            "label": "Legal bases for processing personal data\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 116.8437330708661,
+            "y": 61.84028661417323
+        },
+        {
+            "id": "699",
+            "label": "Data Subject Rights\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 53.343,
+            "y": 31.78622677165355
+        },
+        {
+            "id": "700",
+            "label": "Data Security\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 104.6849,
+            "y": 32.00101338582677
+        },
+        {
+            "id": "701",
+            "label": "Accountability documents & Data Protection Officer\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 146.7037,
+            "y": 31.99761338582677
+        },
+        {
+            "id": "702",
+            "label": "International Data Transfers\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 177.8005322834645,
+            "y": 32.00092677165355
+        },
+        {
+            "id": "718",
+            "label": "General requirements for exercising data subject rights\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 19.3795,
+            "y": 26.2568
+        },
+        {
+            "id": "719",
+            "label": "Requirements related to each specific right\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 61.2772,
+            "y": 22.4934
+        },
+        {
+            "id": "731",
+            "label": "Do you ensure that every exercise of data subject rights include all of the following?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 9.468866141732263,
+            "y": 19.83241338582678
+        },
+        {
+            "id": "733",
+            "label": "Have you implemented technical and organisational measures in the following manner?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 95.595,
+            "y": 28.29672677165355
+        },
+        {
+            "id": "734",
+            "label": "If personal data breach happened at your organisation:\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 112.9847,
+            "y": 29.66041338582678
+        },
+        {
+            "id": "735",
+            "label": "Is it unlikely to result in a risk to the rights and freedoms of natural persons?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 107.6369,
+            "y": 27.22901338582678
+        },
+        {
+            "id": "736",
+            "label": "Is it likely to result in a high risk to the rights and freedoms of natural persons?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 118.028,
+            "y": 27.22911338582679
+        },
+        {
+            "id": "740",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 109.4917661417323,
+            "y": 26.12621338582677
+        },
+        {
+            "id": "741",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 105.9139661417323,
+            "y": 26.11601338582678
+        },
+        {
+            "id": "749",
+            "label": "Notification to the supervisory authority\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 109.4916492125984,
+            "y": 25.10637677165354
+        },
+        {
+            "id": "753",
+            "label": "No need for notification to the supervisory authority\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 105.9139992125984,
+            "y": 25.08587677165355
+        },
+        {
+            "id": "761",
+            "label": "No need for notification to data subjects\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 114.0700661417323,
+            "y": 23.71291338582677
+        },
+        {
+            "id": "763",
+            "label": "Notification to data subjects\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 118.6360992125985,
+            "y": 17.40062677165354
+        },
+        {
+            "id": "764",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 114.0700661417323,
+            "y": 24.62501338582678
+        },
+        {
+            "id": "766",
+            "label": "Yes, but:\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 118.8042661417323,
+            "y": 21.73171338582677
+        },
+        {
+            "id": "772",
+            "label": "You have implemented appropriate technical and organisational protection measures, and those measures were applied to the personal data affected by the personal data breach, in particular those that render the personal data unintelligible to any person who is not authorised to access it, such as encryption;\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 115.5855,
+            "y": 20.04261338582678
+        },
+        {
+            "id": "775",
+            "label": "You have taken\u00a0subsequent\u00a0measures which ensure that the\u00a0high risk\u00a0to the rights and freedoms of data subjects is no longer likely to materialise\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 118.7942661417323,
+            "y": 20.04001338582678
+        },
+        {
+            "id": "776",
+            "label": "It would involve disproportionate effort but you have issued public communication or similar measure whereby the data subjects are informed in an equally effective manner.\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 121.6789661417323,
+            "y": 20.04001338582678
+        },
+        {
+            "id": "783",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 117.0426661417323,
+            "y": 18.42111338582678
+        },
+        {
+            "id": "784",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 119.9382661417323,
+            "y": 18.41091338582678
+        },
+        {
+            "id": "788",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 118.5303661417323,
+            "y": 18.41841338582677
+        },
+        {
+            "id": "799",
+            "label": "Without undue delay and, where\u00a0feasible, not later than 72 hours after having become aware of it.\u00a0\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 107.3264,
+            "y": 23.65091338582678
+        },
+        {
+            "id": "801",
+            "label": "1. the nature of the personal data breach including where possible, the categories and approximate number of data subjects concerned and the categories and approximate number of personal data records concerned;\n2. the name\u00a0the name and contact details of the data protection officer or other contact point where more information can be obtained;\n3. the\u00a0likely consequences\u00a0of the personal data breach;\n4. the measures taken or proposed to be taken by the controller to address the personal data breach, including, where\u00a0appropriate, measures to mitigate its possible adverse effects\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 111.0385661417323,
+            "y": 21.56351338582677
+        },
+        {
+            "id": "808",
+            "label": "without undue delay \n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 116.7687661417323,
+            "y": 16.11431338582678
+        },
+        {
+            "id": "809",
+            "label": "1. the name\u00a0the name and contact details of the data protection officer or other contact point where more information can be obtained;\n2. the\u00a0likely consequences\u00a0of the personal data breach;\n3. the measures taken or proposed to be taken by the controller to address the personal data breach, including, where\u00a0appropriate, measures to mitigate its possible adverse effects\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 121.0765991662499,
+            "y": 15.46572678061808
+        },
+        {
+            "id": "812",
+            "label": "Established taking into account\u00a0(a)\u00a0the state of the art,\u00a0(b)\u00a0the costs of implementation and\u00a0(c)\u00a0the nature, scope, context and purposes of processing as well as\u00a0(d)\u00a0the risk of varying likelihood and severity for the rights and freedoms of natural persons.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 90.93709921259837,
+            "y": 24.74662677165355
+        },
+        {
+            "id": "813",
+            "label": "A level of security is established  appropriate to the risk in particular taking into account protection from\u00a0accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted,\u00a0stored\u00a0or otherwise processed.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 95.59496614173229,
+            "y": 24.74657677165354
+        },
+        {
+            "id": "814",
+            "label": "Measures, among others, where appropriate, include:\u00a0\n- the pseudonymisation and encryption of personal data;\u00a0\n- the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;\u00a0\n-the ability to restore the availability and access to personal data\u00a0in a timely manner\u00a0in the event of\u00a0a physical or technical incident;\u00a0\n-a process for regularly testing,\u00a0assessing\u00a0and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 100.2043992125984,
+            "y": 24.74672677165355
+        },
+        {
+            "id": "832",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 94.21509920902217,
+            "y": 21.80182676950778
+        },
+        {
+            "id": "833",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 97.12809920902207,
+            "y": 21.80182676950778
+        },
+        {
+            "id": "834",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 95.67159920902218,
+            "y": 21.80192676950778
+        },
+        {
+            "id": "840",
+            "label": "Data can be processed\n",
+            "shape_type": "Shape",
+            "color": "#92d050",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "unknown",
+            "x": 94.21519921259839,
+            "y": 20.62492678014126
+        },
+        {
+            "id": "841",
+            "label": "Data cannot be processed\n",
+            "shape_type": "Shape",
+            "color": "#ff0000",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "unknown",
+            "x": 97.12799921259837,
+            "y": 20.62492678014126
+        },
+        {
+            "id": "845",
+            "label": "Do you transfer data to a third country or an international organisation?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 177.8004992125984,
+            "y": 30.80062677165355
+        },
+        {
+            "id": "851",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 176.2709661417323,
+            "y": 29.75561338582676
+        },
+        {
+            "id": "852",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 178.9373992125984,
+            "y": 29.76582677165354
+        },
+        {
+            "id": "856",
+            "label": "No additional action is needed\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 176.0443161417323,
+            "y": 28.89771338582677
+        },
+        {
+            "id": "859",
+            "label": "Is country to which you transfer personal data covered by the European Commission adequacy decision [link to the full list of the countries]\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 178.9373992125984,
+            "y": 28.73102677165354
+        },
+        {
+            "id": "861",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 179.6173992125985,
+            "y": 27.76722677165355
+        },
+        {
+            "id": "862",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 178.2573992125984,
+            "y": 27.77747677165355
+        },
+        {
+            "id": "865",
+            "label": "No additional action is needed, data can be transferred\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 176.0358161417323,
+            "y": 27.75856338582678
+        },
+        {
+            "id": "868",
+            "label": "Can you rely on any of the appropriate safeguards?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 178.9373992125984,
+            "y": 26.81362677165355
+        },
+        {
+            "id": "870",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 179.6172992090222,
+            "y": 25.84980177165355
+        },
+        {
+            "id": "871",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 178.2572992090222,
+            "y": 25.86005177165355
+        },
+        {
+            "id": "874",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 179.8410661417323,
+            "y": 23.81631338582677
+        },
+        {
+            "id": "875",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 177.9656661417323,
+            "y": 23.81631338582677
+        },
+        {
+            "id": "876",
+            "label": "Can you rely on any of the specific derogiations?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 178.9168992125984,
+            "y": 24.89622677165355
+        },
+        {
+            "id": "1348",
+            "label": "Do you have a transfer impact assessment in place following the necessary requirements and the conclusion is positive?\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 176.2193992125985,
+            "y": 26.42102677165354
+        },
+        {
+            "id": "883",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 177.0124661417323,
+            "y": 25.53721338582677
+        },
+        {
+            "id": "884",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 175.3027661417323,
+            "y": 25.54751338582678
+        },
+        {
+            "id": "887",
+            "label": "Data can be transferred\n",
+            "shape_type": "Shape",
+            "color": "#92d050",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "unknown",
+            "x": 175.3027661417323,
+            "y": 24.61011338582677
+        },
+        {
+            "id": "891",
+            "label": "Data cannot be transferred\n",
+            "shape_type": "Shape",
+            "color": "#ff0000",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "unknown",
+            "x": 177.0124661417323,
+            "y": 24.61021338582678
+        },
+        {
+            "id": "893",
+            "label": "Data can be transferred\n",
+            "shape_type": "Shape",
+            "color": "#92d050",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "unknown",
+            "x": 177.9656661417323,
+            "y": 22.69291338582678
+        },
+        {
+            "id": "895",
+            "label": "Data cannot be transferred\n",
+            "shape_type": "Shape",
+            "color": "#ff0000",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "unknown",
+            "x": 179.8410661417323,
+            "y": 22.69291338582678
+        },
+        {
+            "id": "1349",
+            "label": "Records of Processing Activities (RoPA)\n",
+            "shape_type": "Shape",
+            "color": "#fcebdd",
+            "mp_name": "Data",
+            "reverse_engineering_type": "unknown",
+            "x": 133.6781492125985,
+            "y": 28.73012677165352
+        },
+        {
+            "id": "1350",
+            "label": "Data Protection Impact Assessment (DPIA)\n",
+            "shape_type": "Shape",
+            "color": "#fcebdd",
+            "mp_name": "Data",
+            "reverse_engineering_type": "unknown",
+            "x": 146.6565661417323,
+            "y": 28.90511338582677
+        },
+        {
+            "id": "1351",
+            "label": "Appointing Data Protection Officer (DPO)\n",
+            "shape_type": "Shape",
+            "color": "#fcebdd",
+            "mp_name": "Data",
+            "reverse_engineering_type": "unknown",
+            "x": 159.9606992125984,
+            "y": 28.94882677165354
+        },
+        {
+            "id": "905",
+            "label": "Does any of the following apply to you?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 159.9605992125984,
+            "y": 27.80612677165355
+        },
+        {
+            "id": "907",
+            "label": "You are a public authority or body (except for courts acting in their judicial capacity)\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 157.0471992125984,
+            "y": 25.95782677165352
+        },
+        {
+            "id": "910",
+            "label": "Your core activities consist\u00a0of processing operations which, by virtue of their nature, their\u00a0scope\u00a0and/or their purposes, require regular and systematic monitoring of data subjects on a large scale\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 159.9605992125984,
+            "y": 25.95782677165352
+        },
+        {
+            "id": "911",
+            "label": "Your core activities consist\u00a0of processing on a large scale of special categories of data\u00a0and personal data relating to criminal convictions and offences.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 162.9212992125984,
+            "y": 25.95782677165352
+        },
+        {
+            "id": "917",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 158.5042992090221,
+            "y": 24.74912676950778
+        },
+        {
+            "id": "918",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 161.417299209022,
+            "y": 24.74912676950778
+        },
+        {
+            "id": "919",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 159.9607992090221,
+            "y": 24.74922676950776
+        },
+        {
+            "id": "927",
+            "label": "You have an obligation to appoint a DPO\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 158.4086661417323,
+            "y": 23.71551338582678
+        },
+        {
+            "id": "929",
+            "label": "You do not have an obligation to appoint a DPO \n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 161.2783661417322,
+            "y": 23.71551338582678
+        },
+        {
+            "id": "930",
+            "label": "If you decide to appoint a DPO the GDPR DPO requirements apply\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 163.5888661417323,
+            "y": 23.71551338582678
+        },
+        {
+            "id": "934",
+            "label": "Is your performed data processing, in particularly\u00a0using new technologies, and taking into account the nature, scope, context and purposes of the processing,\u00a0 likely to result in a high risk to the rights and freedoms of natural persons based on any of the following scenarios?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 146.6565661417323,
+            "y": 27.19951338582676
+        },
+        {
+            "id": "937",
+            "label": "\u00a0A systematic and extensive evaluation of personal aspects relating to natural persons which is based on automated processing, including profiling, and on which decisions are based that produce legal effects concerning the natural person or similarly significantly affect the natural person\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 141.4302992125984,
+            "y": 24.23497677165354
+        },
+        {
+            "id": "938",
+            "label": "Processing on a large scale of special categories of data, or of personal data relating to criminal convictions and offences\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.1524661417323,
+            "y": 24.26871338582676
+        },
+        {
+            "id": "939",
+            "label": "A systematic monitoring of a publicly accessible area on a large scale.\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 148.4362661417323,
+            "y": 24.28176338582677
+        },
+        {
+            "id": "941",
+            "label": "Other data processing that may result in high risk to data subjects\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 151.1297661417323,
+            "y": 24.27521338582677
+        },
+        {
+            "id": "956",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 145.6340661417323,
+            "y": 21.60541338582679
+        },
+        {
+            "id": "957",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 148.5467661417323,
+            "y": 21.61561338582676
+        },
+        {
+            "id": "958",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 147.0905661417323,
+            "y": 22.18101338582677
+        },
+        {
+            "id": "975",
+            "label": "You are not obliged to perform a DPIA\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 148.5469161417323,
+            "y": 20.43446338582675
+        },
+        {
+            "id": "977",
+            "label": "You are obliged to perform a DPIA\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 145.6340161417323,
+            "y": 20.43436338582676
+        },
+        {
+            "id": "980",
+            "label": "Do you have 250 or more employees?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 133.6781992125984,
+            "y": 27.39692677165353
+        },
+        {
+            "id": "987",
+            "label": "No, but at least one of the following applies:\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 134.9539992125984,
+            "y": 26.36922677165354
+        },
+        {
+            "id": "988",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 132.9280992125984,
+            "y": 26.36932677165355
+        },
+        {
+            "id": "994",
+            "label": "You are obliged to maintain RoPA\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 132.7805161417323,
+            "y": 21.82547677165353
+        },
+        {
+            "id": "997",
+            "label": "The processing is not occasional\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 133.7713992125984,
+            "y": 24.95432677165353
+        },
+        {
+            "id": "998",
+            "label": "The processing includes special categories of data\u00a0or personal data relating to criminal convictions and offences\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 136.1395992125984,
+            "y": 24.95432677165353
+        },
+        {
+            "id": "1005",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 132.3773661417323,
+            "y": 23.13202677165354
+        },
+        {
+            "id": "1006",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 134.9539661417323,
+            "y": 23.12172677165354
+        },
+        {
+            "id": "1007",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 133.7713992090222,
+            "y": 23.75712676950776
+        },
+        {
+            "id": "1018",
+            "label": "You are not obliged to maintain RoPA\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 134.8498161417323,
+            "y": 21.82547677165353
+        },
+        {
+            "id": "1023",
+            "label": "Information is provided\u00a0in a concise, transparent, intelligible and easily accessible form\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 9.483666141732272,
+            "y": 18.34271338582678
+        },
+        {
+            "id": "1025",
+            "label": "Information is provided using clear and plain language\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 9.47876614173228,
+            "y": 17.00331338582677
+        },
+        {
+            "id": "1028",
+            "label": "The information is provided in writing, or by other means, including, where appropriate, by electronic means\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 9.483699212598395,
+            "y": 15.62182677165354
+        },
+        {
+            "id": "1034",
+            "label": "Information provided without undue delay and in any event within one month of the receipt of the request (for rights established in Art.15-22)\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 12.9531,
+            "y": 13.44092677165354
+        },
+        {
+            "id": "1035",
+            "label": "\u00a0When personal data are collected from the data subject\u00a0information about data processing is provided at the time when personal data are obtained\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 9.3827,
+            "y": 13.48312677165354
+        },
+        {
+            "id": "1036",
+            "label": "When personal data have not been obtained from the data subject\u00a0information about data processing is provided:\u00a0\n- within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed; or\n- if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or\n-if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed.\u00a0\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 4.0004,
+            "y": 13.48302677165354
+        },
+        {
+            "id": "1044",
+            "label": "If you do not act on the data subject\u2019s request, you must, without delay and no later than one month after receipt, inform the data subject of the reasons and of their right to lodge a complaint with a supervisory authority and seek a judicial remedy.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 16.6626,
+            "y": 15.15982677165354
+        },
+        {
+            "id": "1047",
+            "label": "Information is generally provided free of charge.\u00a0Where a data subject\u2019s requests are manifestly unfounded or excessive, particularly because they are repetitive, you may either charge a reasonable fee based on the administrative costs of providing the information or taking the requested action, or refuse to act on the request. You\u00a0bear the burden of demonstrating the manifestly unfounded or excessive character of the request.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 9.3818,
+            "y": 10.59012677165355
+        },
+        {
+            "id": "1051",
+            "label": "The following depends on the specific right applicable / request provided by\u00a0 a data subject - not all rights have to be evaluated in each request\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 71.6175,
+            "y": 24.7466
+        },
+        {
+            "id": "1054",
+            "label": "Right to be informed\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 25.2193,
+            "y": 17.13171338582678
+        },
+        {
+            "id": "1055",
+            "label": "Right of access\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 36.0466661417323,
+            "y": 17.13162677165354
+        },
+        {
+            "id": "1056",
+            "label": "Right to rectification\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 41.4742661417323,
+            "y": 17.29922677165354
+        },
+        {
+            "id": "1057",
+            "label": "Right to be forgotten\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 49.36736614173231,
+            "y": 17.34892677165355
+        },
+        {
+            "id": "1058",
+            "label": "Right to restriction of processing\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 61.27726614173231,
+            "y": 17.29921338582678
+        },
+        {
+            "id": "1059",
+            "label": "Right to data portability\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 71.66476614173229,
+            "y": 17.29931338582677
+        },
+        {
+            "id": "1060",
+            "label": "Right to object\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 77.6763992125984,
+            "y": 17.26062677165354
+        },
+        {
+            "id": "1061",
+            "label": "Right to not to be\u00a0subject to a decision based solely on automated processing, including profiling\n",
+            "shape_type": "Shape",
+            "color": "#cf4c9f",
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 83.67606614173229,
+            "y": 17.01061338582677
+        },
+        {
+            "id": "1113",
+            "label": "Where do you obtain personal data from?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 25.21926614173228,
+            "y": 15.36702677165354
+        },
+        {
+            "id": "1116",
+            "label": "Directly from data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 21.53196614173228,
+            "y": 13.94612677165354
+        },
+        {
+            "id": "1117",
+            "label": "Not directly from data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 27.94966614173228,
+            "y": 13.92342677165354
+        },
+        {
+            "id": "1123",
+            "label": "Does the data subject already has information about data processing?\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 21.53196614173228,
+            "y": 12.12152677165354
+        },
+        {
+            "id": "1125",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 22.57546614173228,
+            "y": 10.95971338582678
+        },
+        {
+            "id": "1126",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 20.13316614173226,
+            "y": 10.95970580675601
+        },
+        {
+            "id": "1132",
+            "label": "Information to data subjects does not have to be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 20.13306614173229,
+            "y": 9.89711338582677
+        },
+        {
+            "id": "1133",
+            "label": "Information to data subjects must be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 22.57556614173228,
+            "y": 9.897213385826774
+        },
+        {
+            "id": "1138",
+            "label": "Does any of the following apply?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 27.94956614173228,
+            "y": 13.00922677165355
+        },
+        {
+            "id": "1143",
+            "label": "The data subject already has information about data processing\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 24.38186614173227,
+            "y": 9.550426771653541
+        },
+        {
+            "id": "1144",
+            "label": "Provision of such information proves impossible or would involve a disproportionate effort or in so far as the provision of information is likely to render impossible or seriously impair the achievement of the objectives of that processing. You have also taken appropriate measures to protect the data subject's rights and freedoms and legitimate interests, including making the information publicly available\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 26.35446614173227,
+            "y": 9.143926771653547
+        },
+        {
+            "id": "1145",
+            "label": "Obtaining or disclosure is expressly laid down by the EU or national law to which the controller is subject and which provides appropriate measures to protect the data subject's legitimate interests\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 28.78736614173226,
+            "y": 9.897226771653543
+        },
+        {
+            "id": "1148",
+            "label": "Where the personal data must remain confidential subject to an obligation of professional secrecy regulated by the EU or national law, including a statutory obligation of secrecy\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 31.4828661417323,
+            "y": 9.832226771653545
+        },
+        {
+            "id": "1156",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 26.49299920902215,
+            "y": 5.74091829929349
+        },
+        {
+            "id": "1157",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 29.40599920902213,
+            "y": 5.74091829929349
+        },
+        {
+            "id": "1158",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 27.94949920902212,
+            "y": 5.741018299293494
+        },
+        {
+            "id": "1166",
+            "label": "Information to data subjects must be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 29.38454921259842,
+            "y": 4.406676771653544
+        },
+        {
+            "id": "1167",
+            "label": "Information to data subjects does not have to be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 26.49286614173226,
+            "y": 4.445813385826774
+        },
+        {
+            "id": "1171",
+            "label": "Can the provision of requested data adversely affect the rights and freedoms of others?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 36.04676614173231,
+            "y": 15.38412677165355
+        },
+        {
+            "id": "1173",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 36.8493492108103,
+            "y": 14.13788725410232
+        },
+        {
+            "id": "1174",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 35.35944920723399,
+            "y": 14.13796628920477
+        },
+        {
+            "id": "1177",
+            "label": "Information to data subjects must not be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 34.1689,
+            "y": 12.74811338582678
+        },
+        {
+            "id": "1178",
+            "label": "Information to data subjects must be provided\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 37.8782661417323,
+            "y": 12.66171338582677
+        },
+        {
+            "id": "1181",
+            "label": "The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data concerning them. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 41.4742661417323,
+            "y": 15.13932677165355
+        },
+        {
+            "id": "1184",
+            "label": "the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 44.2883,
+            "y": 13.05532677165355
+        },
+        {
+            "id": "1185",
+            "label": "Does any of the following apply?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 49.36736614173231,
+            "y": 14.78782677165354
+        },
+        {
+            "id": "1188",
+            "label": "the data subject withdraws consent and there is no other legal ground for the processing\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 46.58066614173229,
+            "y": 13.05531338582677
+        },
+        {
+            "id": "1189",
+            "label": "\nthe data subject objects to the processing\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 48.1211661417323,
+            "y": 12.96411338582678
+        },
+        {
+            "id": "1190",
+            "label": "\nthe personal data have been unlawfully processed\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 49.9150661417323,
+            "y": 12.96411338582678
+        },
+        {
+            "id": "1191",
+            "label": "\nthe personal data have to be erased for compliance with a legal obligation in EU or national law to which you are a subject\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 52.05276614173229,
+            "y": 12.96412677165355
+        },
+        {
+            "id": "1192",
+            "label": "\nthe personal data have been collected in relation to the offer of information society services to a child\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 54.29546614173231,
+            "y": 12.96402677165354
+        },
+        {
+            "id": "1199",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 47.686,
+            "y": 10.63262677165354
+        },
+        {
+            "id": "1200",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 50.8618,
+            "y": 10.63262677165354
+        },
+        {
+            "id": "1201",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 49.3674,
+            "y": 10.63262677165354
+        },
+        {
+            "id": "1218",
+            "label": "Requested data must be deleted\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 46.1665661417323,
+            "y": 4.42171338582677
+        },
+        {
+            "id": "1220",
+            "label": "Is the further processing necessary:\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 47.6986,
+            "y": 9.468526771653544
+        },
+        {
+            "id": "1222",
+            "label": "for exercising the right of freedom of expression and information\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 43.17606614173229,
+            "y": 7.422213385826773
+        },
+        {
+            "id": "1223",
+            "label": "to comply with legal obligations under EU or national law, or to carry out a task in the public interest or under official authority granted to you.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 45.4391661417323,
+            "y": 7.428813385826771
+        },
+        {
+            "id": "1224",
+            "label": "\nfor reasons of public interest in the area of public health\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 47.7005661417323,
+            "y": 7.428713385826775
+        },
+        {
+            "id": "1225",
+            "label": "\nfor archiving purposes in the public interest, scientific or historical research purposes or statistical purposes\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 49.7045661417323,
+            "y": 7.428613385826772
+        },
+        {
+            "id": "1226",
+            "label": "\nfor the establishment, exercise or defence of legal claims.\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 51.70866614173229,
+            "y": 7.428613385826772
+        },
+        {
+            "id": "1239",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 47.750849207234,
+            "y": 5.667526767361999
+        },
+        {
+            "id": "1251",
+            "label": "Does any of the following apply?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 61.2838661417323,
+            "y": 16.10041338582678
+        },
+        {
+            "id": "1253",
+            "label": "The accuracy of the personal data is contested by the data subject, for a period enabling you to verify the accuracy of the personal data\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 57.0474661417323,
+            "y": 13.51851338582677
+        },
+        {
+            "id": "1254",
+            "label": "The processing is unlawful and the data subject opposes the erasure of the personal data and requests the restriction of their use instead\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 59.7927661417323,
+            "y": 13.48021338582677
+        },
+        {
+            "id": "1255",
+            "label": "You no longer need the personal data for the purposes of the processing, but they are required by the data subject for the establishment, exercise or defence of legal claims\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 63.0064661417323,
+            "y": 13.44451338582677
+        },
+        {
+            "id": "1256",
+            "label": "The data subject has objected to processing pending the verification whether your legitimate grounds of override those of the data subject.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 66.03696614173231,
+            "y": 13.45251338582678
+        },
+        {
+            "id": "1264",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 60.58676614173232,
+            "y": 11.66171338582677
+        },
+        {
+            "id": "1265",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 62.67906614173231,
+            "y": 11.64281338582678
+        },
+        {
+            "id": "1266",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 61.63286614173232,
+            "y": 11.66181338582678
+        },
+        {
+            "id": "1273",
+            "label": "Requested processing must be restricted\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 60.58676614173232,
+            "y": 10.33331338582678
+        },
+        {
+            "id": "1275",
+            "label": "Requested processing does not have to be restricted\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 62.6791161417323,
+            "y": 10.33341338582678
+        },
+        {
+            "id": "1277",
+            "label": "If you restrict processing, you may only store the data and otherwise process it only with the data subject\u2019s consent, for legal claims, to protect others\u2019 rights or for important public interest under the EU or national law.\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 60.58676614173232,
+            "y": 8.106413385826777
+        },
+        {
+            "id": "1279",
+            "label": "You also need to inform data subject before the restriction is lifted\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 60.58666614173232,
+            "y": 5.776913385826774
+        },
+        {
+            "id": "1282",
+            "label": "The processing:\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 71.66476614173229,
+            "y": 16.10231338582678
+        },
+        {
+            "id": "1283",
+            "label": "Is based on consent or contract\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 70.64246614173229,
+            "y": 14.90031338582678
+        },
+        {
+            "id": "1284",
+            "label": "\u00a0is carried out by automated means\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 72.68696614173228,
+            "y": 14.90031338582678
+        },
+        {
+            "id": "1289",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 70.3790661417323,
+            "y": 13.47981338582678
+        },
+        {
+            "id": "1290",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 72.69669921259839,
+            "y": 13.47172677165354
+        },
+        {
+            "id": "1291",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 71.6647355151012,
+            "y": 13.47980568673327
+        },
+        {
+            "id": "1298",
+            "label": "Can the provision of requested data adversely affect the rights and freedoms of others?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 70.3790661417323,
+            "y": 12.25861338582678
+        },
+        {
+            "id": "1300",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 71.82326614173229,
+            "y": 11.14561338582677
+        },
+        {
+            "id": "1301",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 68.97774920723401,
+            "y": 11.12819975474604
+        },
+        {
+            "id": "1304",
+            "label": "Information to data subjects cannot to be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 68.9777661417323,
+            "y": 9.475313385826773
+        },
+        {
+            "id": "1309",
+            "label": "Information to data subjects does not have to be provided\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 72.68686614173231,
+            "y": 12.10861338582676
+        },
+        {
+            "id": "1311",
+            "label": "Information to data subjects must be provided\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 71.8233661417323,
+            "y": 9.512813385826774
+        },
+        {
+            "id": "1314",
+            "label": "\u00a0Data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible.\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 71.8233661417323,
+            "y": 7.527613385826776
+        },
+        {
+            "id": "1316",
+            "label": "The data subject can object at any time, based on their particular situation, to your processing carried out for public interest/official authority or your legitimate interests, including profiling. You must stop processing unless you demonstrate compelling overriding grounds or it is necessary for legal claims.\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Custom 4",
+            "reverse_engineering_type": "unknown",
+            "x": 77.6764661417323,
+            "y": 15.26451338582678
+        },
+        {
+            "id": "1319",
+            "label": "Is the automated decision:\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 83.67606614173229,
+            "y": 13.97112677165355
+        },
+        {
+            "id": "1321",
+            "label": " necessary for entering into, or performance of, a contract between the data subject and a data controller?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 80.9041661417323,
+            "y": 12.00742677165354
+        },
+        {
+            "id": "1322",
+            "label": "authorised by the EU or national law to which you are the subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 83.67606614173229,
+            "y": 11.83377677165355
+        },
+        {
+            "id": "1323",
+            "label": "based on the data subject's explicit consent?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 86.8125661417323,
+            "y": 12.09432677165354
+        },
+        {
+            "id": "1330",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 82.6463661417323,
+            "y": 9.372426771653544
+        },
+        {
+            "id": "1331",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 84.61066614173231,
+            "y": 9.364326771653545
+        },
+        {
+            "id": "1332",
+            "label": "IF\n",
+            "shape_type": "Shape",
+            "color": "#eeeaf2",
+            "mp_name": "Start/End",
+            "reverse_engineering_type": "IF collector node",
+            "x": 83.67606614173229,
+            "y": 10.13052677165354
+        },
+        {
+            "id": "1338",
+            "label": "\u00a0The right not to be subject to a decision based solely on automated processing does not apply\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 81.8045661417323,
+            "y": 7.226026771653544
+        },
+        {
+            "id": "1340",
+            "label": "\u00a0The right not to be subject to a decision based solely on automated processing applies\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 85.56556614173229,
+            "y": 6.987426771653546
+        },
+        {
+            "id": "1385",
+            "label": "Ensure that the following conditions are respected:\n",
+            "shape_type": "Shape",
+            "color": "#e5b9b5",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Conditions to respect Node",
+            "x": 105.2314661417323,
+            "y": 46.38271338582678
+        },
+        {
+            "id": "1388",
+            "label": "Ability to demonstrate that the data subject has consented to the processing of their data\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 100.8030661417323,
+            "y": 47.88101338582678
+        },
+        {
+            "id": "1390",
+            "label": "In case the data subject was called to provide consent in the context of a written declaration concerning other matters, ability to demonstrate that the request for consent was presented:\n- in a manner clearly distinguishable from other matters\n- in an intelligible and easily accessible form\n- using clear and plain language\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 100.8030661417323,
+            "y": 46.38281338582677
+        },
+        {
+            "id": "1395",
+            "label": "Possibility for the data subject to\u00a0withdraw\u00a0their consent\u00a0at any given moment\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 100.8032661417323,
+            "y": 44.75961338582678
+        },
+        {
+            "id": "1400",
+            "label": "Consent is\u00a0freely given, specific, informed and unambiguous\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 100.8031661417323,
+            "y": 48.87921338582677
+        },
+        {
+            "id": "1412",
+            "label": "Requested data should not be deleted\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 53.2395,
+            "y": 10.63262677165354
+        },
+        {
+            "id": "1430",
+            "label": "Re freely given element, consider (among other elements)  providing consent to the processing of personal data not necessary for the performance of a contract, was a condition for the performance of said contract\u00a0\u00a0\n",
+            "shape_type": "Shape",
+            "color": "#f2f2f2",
+            "mp_name": "Data",
+            "reverse_engineering_type": "unknown",
+            "x": 95.86686614173229,
+            "y": 48.74771338582679
+        },
+        {
+            "id": "1416",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 46.1665661417323,
+            "y": 5.67771338582677
+        },
+        {
+            "id": "1417",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 49.335066138156,
+            "y": 5.667513385826773
+        },
+        {
+            "id": "1432",
+            "label": "Is the data subject above\u00a016 years old?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 109.5260661417323,
+            "y": 48.74781338582677
+        },
+        {
+            "id": "1436",
+            "label": "Yes\n",
+            "shape_type": "Shape",
+            "color": "#9dbb61",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Yes Node",
+            "x": 108.1036661417323,
+            "y": 46.75821338582677
+        },
+        {
+            "id": "1438",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 110.4113661417323,
+            "y": 47.08101338582677
+        },
+        {
+            "id": "1441",
+            "label": "Is consent given or authorised by the holder of parental responsibility over the child?\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 111.1379661417323,
+            "y": 45.73971338582678
+        },
+        {
+            "id": "1444",
+            "label": "No\n",
+            "shape_type": "Shape",
+            "color": "#c05046",
+            "mp_name": "Process",
+            "reverse_engineering_type": "No Node",
+            "x": 110.2395661417323,
+            "y": 44.33291338582679
+        },
+        {
+            "id": "1447",
+            "label": "Data cannot be processed\n",
+            "shape_type": "Shape",
+            "color": "#b7dde8",
+            "mp_name": "Decision",
+            "reverse_engineering_type": "Termination Node",
+            "x": 110.2396330708662,
+            "y": 42.81068661417324
+        },
+        {
+            "id": "1744",
+            "label": "Once it is established that data can be processed lawfully, all of the below must be ensured and complied with simultaneously\n",
+            "shape_type": "Shape",
+            "color": "#fff2cc",
+            "mp_name": "Process",
+            "reverse_engineering_type": "Question Node",
+            "x": 115.0636330708661,
+            "y": 37.34768661417322
+        },
+        {
+            "id": "1757",
+            "label": "lawfulness, fairness and transparency\n\npersonal data shall be processed\u00a0\nprocessed lawfully, fairly and in a transparent manner in relation to the data subject\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4707,
+            "y": 57.9641
+        },
+        {
+            "id": "1758",
+            "label": "purpose limitation\n\npersonal data shall be\ncollected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4707,
+            "y": 56.0082
+        },
+        {
+            "id": "1759",
+            "label": "data minimisation\u00a0\n\npersonal data shall be\u00a0adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4716,
+            "y": 54.0522
+        },
+        {
+            "id": "1760",
+            "label": "accuracy\n\npersonal data shall be\u00a0\naccurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay\n\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4717,
+            "y": 51.7247
+        },
+        {
+            "id": "1761",
+            "label": "storage limitation\u00a0\n\npersonal data shall be\u00a0\nkept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4707,
+            "y": 49.3698
+        },
+        {
+            "id": "1762",
+            "label": "integrity and confidentiality\n\npersonal data shall be\u00a0\nprocessed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4712,
+            "y": 46.9351
+        },
+        {
+            "id": "1763",
+            "label": "accountability\u00a0\n\nthe controller shall be responsible for and be able to dermonstrate compliance with data protection principles\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 197.4706,
+            "y": 44.4248
+        },
+        {
+            "id": "1764",
+            "label": "STAGE 1. ESTABLISHING  EXISTENCE OF PERSONAL DATA, THE APPLICABILITY OF THE GDPR AND DATA PROCESSING ROLES\n",
+            "shape_type": "Shape",
+            "color": "#ffffff",
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 19.2753,
+            "y": 89.0346
+        },
+        {
+            "id": "1765",
+            "label": "STAGE 2. ESTABLISHING THE NATURE OF PERSONAL DATA AND LAWFULNESS OF DATA PROCESSING\n",
+            "shape_type": "Shape",
+            "color": "#ffffff",
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 19.5715,
+            "y": 56.8114
+        },
+        {
+            "id": "1766",
+            "label": "STAGE 3. COMPLYING WITH OBLIGATIONS UNDER THE GDPR\n",
+            "shape_type": "Shape",
+            "color": "#ffffff",
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 19.57150053405762,
+            "y": 33.6142
+        },
+        {
+            "id": "1767",
+            "label": "DATA PROTECTION PRINCIPLES - APPLICABLE THROUGHOUT THE CYCLE OF EACH DATA PROCESSING OPERATION\n",
+            "shape_type": "Shape",
+            "color": "#ffffff",
+            "mp_name": "Unknown",
+            "reverse_engineering_type": "unknown",
+            "x": 197.3111505340576,
+            "y": 88.0105
+        },
+        {
+            "id": "1768",
+            "label": "To perform a DPIA, at least stages 2 and 3 need to be documented as well as means and purposes from stage 1. Additionally, Article 35 of the GDPR sets what additionally need to be described in the documented DPIA.\n",
+            "shape_type": "Shape",
+            "color": null,
+            "mp_name": "Process",
+            "reverse_engineering_type": "unknown",
+            "x": 145.6341,
+            "y": 17.8682
+        }
+    ],
+    "edges": [
+        {
+            "id": "8",
+            "label": "",
+            "from": "1",
+            "to": "7"
+        },
+        {
+            "id": "36",
+            "label": "",
+            "from": "20",
+            "to": "30"
+        },
+        {
+            "id": "41",
+            "label": "",
+            "from": "20",
+            "to": "38"
+        },
+        {
+            "id": "47",
+            "label": "",
+            "from": "20",
+            "to": "44"
+        },
+        {
+            "id": "51",
+            "label": "",
+            "from": "20",
+            "to": "49"
+        },
+        {
+            "id": "52",
+            "label": "OR\n",
+            "from": "30",
+            "to": "38"
+        },
+        {
+            "id": "53",
+            "label": "OR\n",
+            "from": "38",
+            "to": "44"
+        },
+        {
+            "id": "55",
+            "label": "OR\n",
+            "from": "44",
+            "to": "49"
+        },
+        {
+            "id": "59",
+            "label": "OR\n",
+            "from": "49",
+            "to": "58"
+        },
+        {
+            "id": "61",
+            "label": "",
+            "from": "20",
+            "to": "58"
+        },
+        {
+            "id": "63",
+            "label": "OR\n",
+            "from": "58",
+            "to": "62"
+        },
+        {
+            "id": "67",
+            "label": "OR\n",
+            "from": "62",
+            "to": "66"
+        },
+        {
+            "id": "82",
+            "label": "OR\n",
+            "from": "66",
+            "to": "81"
+        },
+        {
+            "id": "84",
+            "label": "OR\n",
+            "from": "81",
+            "to": "83"
+        },
+        {
+            "id": "87",
+            "label": "OR\n",
+            "from": "83",
+            "to": "86"
+        },
+        {
+            "id": "89",
+            "label": "",
+            "from": "20",
+            "to": "62"
+        },
+        {
+            "id": "90",
+            "label": "",
+            "from": "20",
+            "to": "66"
+        },
+        {
+            "id": "91",
+            "label": "",
+            "from": "20",
+            "to": "81"
+        },
+        {
+            "id": "92",
+            "label": "",
+            "from": "20",
+            "to": "83"
+        },
+        {
+            "id": "93",
+            "label": "",
+            "from": "20",
+            "to": "86"
+        },
+        {
+            "id": "136",
+            "label": "",
+            "from": "123",
+            "to": "135"
+        },
+        {
+            "id": "156",
+            "label": "",
+            "from": "151",
+            "to": "145"
+        },
+        {
+            "id": "157",
+            "label": "",
+            "from": "149",
+            "to": "139"
+        },
+        {
+            "id": "185",
+            "label": "",
+            "from": "18",
+            "to": "184"
+        },
+        {
+            "id": "187",
+            "label": "",
+            "from": "18",
+            "to": "186"
+        },
+        {
+            "id": "190",
+            "label": "OR\n",
+            "from": "184",
+            "to": "186"
+        },
+        {
+            "id": "192",
+            "label": "OR\n",
+            "from": "186",
+            "to": "188"
+        },
+        {
+            "id": "194",
+            "label": "OR\n",
+            "from": "188",
+            "to": "189"
+        },
+        {
+            "id": "195",
+            "label": "",
+            "from": "18",
+            "to": "188"
+        },
+        {
+            "id": "196",
+            "label": "",
+            "from": "18",
+            "to": "189"
+        },
+        {
+            "id": "200",
+            "label": "OR\n",
+            "from": "189",
+            "to": "198"
+        },
+        {
+            "id": "205",
+            "label": "OR\n",
+            "from": "198",
+            "to": "204"
+        },
+        {
+            "id": "206",
+            "label": "",
+            "from": "18",
+            "to": "204"
+        },
+        {
+            "id": "214",
+            "label": "",
+            "from": "18",
+            "to": "207"
+        },
+        {
+            "id": "234",
+            "label": "",
+            "from": "18",
+            "to": "233"
+        },
+        {
+            "id": "237",
+            "label": "OR\n",
+            "from": "204",
+            "to": "207"
+        },
+        {
+            "id": "239",
+            "label": "OR\n",
+            "from": "233",
+            "to": "235"
+        },
+        {
+            "id": "240",
+            "label": "",
+            "from": "18",
+            "to": "235"
+        },
+        {
+            "id": "247",
+            "label": "",
+            "from": "1",
+            "to": "5"
+        },
+        {
+            "id": "254",
+            "label": "",
+            "from": "135",
+            "to": "149"
+        },
+        {
+            "id": "256",
+            "label": "",
+            "from": "135",
+            "to": "151"
+        },
+        {
+            "id": "265",
+            "label": "",
+            "from": "5",
+            "to": "264"
+        },
+        {
+            "id": "270",
+            "label": "",
+            "from": "264",
+            "to": "268"
+        },
+        {
+            "id": "271",
+            "label": "",
+            "from": "264",
+            "to": "269"
+        },
+        {
+            "id": "273",
+            "label": "",
+            "from": "269",
+            "to": "272"
+        },
+        {
+            "id": "277",
+            "label": "",
+            "from": "272",
+            "to": "274"
+        },
+        {
+            "id": "280",
+            "label": "",
+            "from": "272",
+            "to": "279"
+        },
+        {
+            "id": "282",
+            "label": "",
+            "from": "274",
+            "to": "281"
+        },
+        {
+            "id": "286",
+            "label": "",
+            "from": "268",
+            "to": "285"
+        },
+        {
+            "id": "291",
+            "label": "",
+            "from": "285",
+            "to": "289"
+        },
+        {
+            "id": "298",
+            "label": "",
+            "from": "289",
+            "to": "297"
+        },
+        {
+            "id": "299",
+            "label": "",
+            "from": "7",
+            "to": "285"
+        },
+        {
+            "id": "306",
+            "label": "",
+            "from": "297",
+            "to": "303"
+        },
+        {
+            "id": "307",
+            "label": "",
+            "from": "303",
+            "to": "246"
+        },
+        {
+            "id": "309",
+            "label": "",
+            "from": "287",
+            "to": "308"
+        },
+        {
+            "id": "311",
+            "label": "",
+            "from": "279",
+            "to": "308"
+        },
+        {
+            "id": "313",
+            "label": "",
+            "from": "308",
+            "to": "312"
+        },
+        {
+            "id": "318",
+            "label": "",
+            "from": "312",
+            "to": "316"
+        },
+        {
+            "id": "319",
+            "label": "",
+            "from": "312",
+            "to": "317"
+        },
+        {
+            "id": "321",
+            "label": "",
+            "from": "317",
+            "to": "320"
+        },
+        {
+            "id": "325",
+            "label": "",
+            "from": "320",
+            "to": "323"
+        },
+        {
+            "id": "327",
+            "label": "",
+            "from": "320",
+            "to": "322"
+        },
+        {
+            "id": "328",
+            "label": "",
+            "from": "322",
+            "to": "246"
+        },
+        {
+            "id": "330",
+            "label": "",
+            "from": "323",
+            "to": "329"
+        },
+        {
+            "id": "336",
+            "label": "",
+            "from": "285",
+            "to": "287"
+        },
+        {
+            "id": "339",
+            "label": "OR\n",
+            "from": "332",
+            "to": "337"
+        },
+        {
+            "id": "341",
+            "label": "",
+            "from": "329",
+            "to": "332"
+        },
+        {
+            "id": "342",
+            "label": "",
+            "from": "329",
+            "to": "337"
+        },
+        {
+            "id": "346",
+            "label": "",
+            "from": "332",
+            "to": "343"
+        },
+        {
+            "id": "347",
+            "label": "",
+            "from": "337",
+            "to": "343"
+        },
+        {
+            "id": "350",
+            "label": "",
+            "from": "343",
+            "to": "348"
+        },
+        {
+            "id": "351",
+            "label": "",
+            "from": "343",
+            "to": "349"
+        },
+        {
+            "id": "353",
+            "label": "",
+            "from": "349",
+            "to": "246"
+        },
+        {
+            "id": "393",
+            "label": "",
+            "from": "374",
+            "to": "392"
+        },
+        {
+            "id": "394",
+            "label": "",
+            "from": "375",
+            "to": "392"
+        },
+        {
+            "id": "397",
+            "label": "",
+            "from": "379",
+            "to": "392"
+        },
+        {
+            "id": "398",
+            "label": "",
+            "from": "377",
+            "to": "392"
+        },
+        {
+            "id": "399",
+            "label": "",
+            "from": "376",
+            "to": "392"
+        },
+        {
+            "id": "403",
+            "label": "",
+            "from": "392",
+            "to": "359"
+        },
+        {
+            "id": "404",
+            "label": "",
+            "from": "392",
+            "to": "360"
+        },
+        {
+            "id": "408",
+            "label": "",
+            "from": "359",
+            "to": "357"
+        },
+        {
+            "id": "412",
+            "label": "",
+            "from": "357",
+            "to": "409"
+        },
+        {
+            "id": "421",
+            "label": "",
+            "from": "414",
+            "to": "416"
+        },
+        {
+            "id": "422",
+            "label": "",
+            "from": "414",
+            "to": "417"
+        },
+        {
+            "id": "423",
+            "label": "OR\n",
+            "from": "416",
+            "to": "417"
+        },
+        {
+            "id": "425",
+            "label": "",
+            "from": "416",
+            "to": "424"
+        },
+        {
+            "id": "426",
+            "label": "",
+            "from": "417",
+            "to": "424"
+        },
+        {
+            "id": "428",
+            "label": "",
+            "from": "357",
+            "to": "410"
+        },
+        {
+            "id": "432",
+            "label": "",
+            "from": "424",
+            "to": "429"
+        },
+        {
+            "id": "435",
+            "label": "",
+            "from": "424",
+            "to": "430"
+        },
+        {
+            "id": "436",
+            "label": "",
+            "from": "430",
+            "to": "405"
+        },
+        {
+            "id": "444",
+            "label": "",
+            "from": "410",
+            "to": "443"
+        },
+        {
+            "id": "446",
+            "label": "",
+            "from": "429",
+            "to": "443"
+        },
+        {
+            "id": "450",
+            "label": "",
+            "from": "281",
+            "to": "308"
+        },
+        {
+            "id": "452",
+            "label": "",
+            "from": "281",
+            "to": "451"
+        },
+        {
+            "id": "453",
+            "label": "",
+            "from": "119",
+            "to": "365"
+        },
+        {
+            "id": "459",
+            "label": "",
+            "from": "360",
+            "to": "405"
+        },
+        {
+            "id": "460",
+            "label": "",
+            "from": "370",
+            "to": "392"
+        },
+        {
+            "id": "478",
+            "label": "",
+            "from": "476",
+            "to": "449"
+        },
+        {
+            "id": "487",
+            "label": "",
+            "from": "476",
+            "to": "469"
+        },
+        {
+            "id": "491",
+            "label": "",
+            "from": "348",
+            "to": "488"
+        },
+        {
+            "id": "501",
+            "label": "",
+            "from": "316",
+            "to": "488"
+        },
+        {
+            "id": "503",
+            "label": "OR\n",
+            "from": "492",
+            "to": "493"
+        },
+        {
+            "id": "504",
+            "label": "OR\n",
+            "from": "493",
+            "to": "494"
+        },
+        {
+            "id": "505",
+            "label": "OR\n",
+            "from": "494",
+            "to": "495"
+        },
+        {
+            "id": "506",
+            "label": "",
+            "from": "488",
+            "to": "492"
+        },
+        {
+            "id": "507",
+            "label": "",
+            "from": "488",
+            "to": "493"
+        },
+        {
+            "id": "508",
+            "label": "",
+            "from": "488",
+            "to": "494"
+        },
+        {
+            "id": "509",
+            "label": "",
+            "from": "488",
+            "to": "495"
+        },
+        {
+            "id": "511",
+            "label": "",
+            "from": "492",
+            "to": "510"
+        },
+        {
+            "id": "513",
+            "label": "",
+            "from": "493",
+            "to": "510"
+        },
+        {
+            "id": "514",
+            "label": "",
+            "from": "494",
+            "to": "510"
+        },
+        {
+            "id": "515",
+            "label": "",
+            "from": "495",
+            "to": "510"
+        },
+        {
+            "id": "522",
+            "label": "",
+            "from": "510",
+            "to": null
+        },
+        {
+            "id": "527",
+            "label": "",
+            "from": "524",
+            "to": "476"
+        },
+        {
+            "id": "534",
+            "label": "",
+            "from": "510",
+            "to": "533"
+        },
+        {
+            "id": "535",
+            "label": "",
+            "from": "533",
+            "to": "524"
+        },
+        {
+            "id": "536",
+            "label": "",
+            "from": "532",
+            "to": "246"
+        },
+        {
+            "id": "544",
+            "label": "OR\n",
+            "from": "449",
+            "to": "469"
+        },
+        {
+            "id": "553",
+            "label": "",
+            "from": "469",
+            "to": "548"
+        },
+        {
+            "id": "554",
+            "label": "",
+            "from": "469",
+            "to": "550"
+        },
+        {
+            "id": "555",
+            "label": "",
+            "from": "550",
+            "to": "449"
+        },
+        {
+            "id": "557",
+            "label": "",
+            "from": "449",
+            "to": "552"
+        },
+        {
+            "id": "558",
+            "label": "",
+            "from": "449",
+            "to": "551"
+        },
+        {
+            "id": "559",
+            "label": "",
+            "from": "552",
+            "to": "469"
+        },
+        {
+            "id": "561",
+            "label": "",
+            "from": "548",
+            "to": "560"
+        },
+        {
+            "id": "564",
+            "label": "",
+            "from": "551",
+            "to": "562"
+        },
+        {
+            "id": "570",
+            "label": "",
+            "from": "562",
+            "to": "566"
+        },
+        {
+            "id": "573",
+            "label": "",
+            "from": "562",
+            "to": "565"
+        },
+        {
+            "id": "576",
+            "label": "",
+            "from": "566",
+            "to": "572"
+        },
+        {
+            "id": "578",
+            "label": "",
+            "from": "565",
+            "to": "538"
+        },
+        {
+            "id": "588",
+            "label": "",
+            "from": "30",
+            "to": "584"
+        },
+        {
+            "id": "590",
+            "label": "",
+            "from": "38",
+            "to": "584"
+        },
+        {
+            "id": "591",
+            "label": "",
+            "from": "44",
+            "to": "584"
+        },
+        {
+            "id": "592",
+            "label": "",
+            "from": "49",
+            "to": "584"
+        },
+        {
+            "id": "598",
+            "label": "",
+            "from": "83",
+            "to": "584"
+        },
+        {
+            "id": "599",
+            "label": "",
+            "from": "584",
+            "to": "119"
+        },
+        {
+            "id": "601",
+            "label": "",
+            "from": "584",
+            "to": "123"
+        },
+        {
+            "id": "602",
+            "label": "",
+            "from": "86",
+            "to": "584"
+        },
+        {
+            "id": "606",
+            "label": "",
+            "from": "572",
+            "to": "605"
+        },
+        {
+            "id": "608",
+            "label": "",
+            "from": "605",
+            "to": "607"
+        },
+        {
+            "id": "646",
+            "label": "",
+            "from": "560",
+            "to": "645"
+        },
+        {
+            "id": "649",
+            "label": "",
+            "from": "538",
+            "to": "1343"
+        },
+        {
+            "id": "650",
+            "label": "",
+            "from": "572",
+            "to": "1343"
+        },
+        {
+            "id": "653",
+            "label": "",
+            "from": "1343",
+            "to": "651"
+        },
+        {
+            "id": "654",
+            "label": "",
+            "from": "1343",
+            "to": "652"
+        },
+        {
+            "id": "658",
+            "label": "",
+            "from": "607",
+            "to": "1381"
+        },
+        {
+            "id": "659",
+            "label": "",
+            "from": "1381",
+            "to": "613"
+        },
+        {
+            "id": "660",
+            "label": "",
+            "from": "1381",
+            "to": "615"
+        },
+        {
+            "id": "661",
+            "label": "",
+            "from": "1381",
+            "to": "620"
+        },
+        {
+            "id": "662",
+            "label": "",
+            "from": "1381",
+            "to": "624"
+        },
+        {
+            "id": "665",
+            "label": "",
+            "from": "1381",
+            "to": "663"
+        },
+        {
+            "id": "666",
+            "label": "",
+            "from": "652",
+            "to": "1380"
+        },
+        {
+            "id": "668",
+            "label": "",
+            "from": "645",
+            "to": "667"
+        },
+        {
+            "id": "684",
+            "label": "",
+            "from": "1380",
+            "to": "670"
+        },
+        {
+            "id": "685",
+            "label": "",
+            "from": "1380",
+            "to": "672"
+        },
+        {
+            "id": "686",
+            "label": "",
+            "from": "1380",
+            "to": "673"
+        },
+        {
+            "id": "687",
+            "label": "",
+            "from": "1380",
+            "to": "674"
+        },
+        {
+            "id": "688",
+            "label": "",
+            "from": "1380",
+            "to": "675"
+        },
+        {
+            "id": "689",
+            "label": "",
+            "from": "1380",
+            "to": "679"
+        },
+        {
+            "id": "690",
+            "label": "",
+            "from": "1380",
+            "to": "680"
+        },
+        {
+            "id": "691",
+            "label": "",
+            "from": "1380",
+            "to": "682"
+        },
+        {
+            "id": "692",
+            "label": "",
+            "from": "1380",
+            "to": "683"
+        },
+        {
+            "id": "693",
+            "label": "",
+            "from": "675",
+            "to": "677"
+        },
+        {
+            "id": "694",
+            "label": "",
+            "from": "675",
+            "to": "678"
+        },
+        {
+            "id": "705",
+            "label": "",
+            "from": null,
+            "to": "698"
+        },
+        {
+            "id": "706",
+            "label": "",
+            "from": "698",
+            "to": "18"
+        },
+        {
+            "id": "709",
+            "label": "",
+            "from": null,
+            "to": "701"
+        },
+        {
+            "id": "714",
+            "label": "",
+            "from": "217",
+            "to": "20"
+        },
+        {
+            "id": "717",
+            "label": "",
+            "from": "23",
+            "to": "365"
+        },
+        {
+            "id": "724",
+            "label": "",
+            "from": "667",
+            "to": "1380"
+        },
+        {
+            "id": "728",
+            "label": "",
+            "from": "699",
+            "to": "718"
+        },
+        {
+            "id": "729",
+            "label": "",
+            "from": "699",
+            "to": "719"
+        },
+        {
+            "id": "730",
+            "label": "AND\n",
+            "from": "718",
+            "to": "719"
+        },
+        {
+            "id": "744",
+            "label": "",
+            "from": "735",
+            "to": "741"
+        },
+        {
+            "id": "745",
+            "label": "",
+            "from": "735",
+            "to": "740"
+        },
+        {
+            "id": "754",
+            "label": "",
+            "from": "741",
+            "to": "753"
+        },
+        {
+            "id": "755",
+            "label": "",
+            "from": "740",
+            "to": "749"
+        },
+        {
+            "id": "756",
+            "label": "",
+            "from": "734",
+            "to": "735"
+        },
+        {
+            "id": "757",
+            "label": "",
+            "from": "734",
+            "to": "736"
+        },
+        {
+            "id": "758",
+            "label": "BOTH TO BE EVALUATED\n",
+            "from": "735",
+            "to": "736"
+        },
+        {
+            "id": "771",
+            "label": "",
+            "from": "764",
+            "to": "761"
+        },
+        {
+            "id": "777",
+            "label": "OR\n",
+            "from": "772",
+            "to": "775"
+        },
+        {
+            "id": "779",
+            "label": "OR\n",
+            "from": "775",
+            "to": "776"
+        },
+        {
+            "id": "781",
+            "label": "",
+            "from": "766",
+            "to": "775"
+        },
+        {
+            "id": "782",
+            "label": "",
+            "from": "766",
+            "to": "776"
+        },
+        {
+            "id": "789",
+            "label": "",
+            "from": "775",
+            "to": "788"
+        },
+        {
+            "id": "790",
+            "label": "",
+            "from": "772",
+            "to": "788"
+        },
+        {
+            "id": "791",
+            "label": "",
+            "from": "776",
+            "to": "788"
+        },
+        {
+            "id": "793",
+            "label": "",
+            "from": "788",
+            "to": "783"
+        },
+        {
+            "id": "794",
+            "label": "",
+            "from": "788",
+            "to": "784"
+        },
+        {
+            "id": "796",
+            "label": "",
+            "from": "784",
+            "to": "763"
+        },
+        {
+            "id": "798",
+            "label": "",
+            "from": "783",
+            "to": "761"
+        },
+        {
+            "id": "810",
+            "label": "TIMING\n",
+            "from": "763",
+            "to": "808"
+        },
+        {
+            "id": "811",
+            "label": "CONTENT\n",
+            "from": "763",
+            "to": "809"
+        },
+        {
+            "id": "815",
+            "label": "",
+            "from": "766",
+            "to": "772"
+        },
+        {
+            "id": "816",
+            "label": "",
+            "from": "736",
+            "to": "764"
+        },
+        {
+            "id": "820",
+            "label": "TIMING\n",
+            "from": "749",
+            "to": "799"
+        },
+        {
+            "id": "821",
+            "label": "CONTENT\n",
+            "from": "749",
+            "to": "801"
+        },
+        {
+            "id": "825",
+            "label": "",
+            "from": "733",
+            "to": "812"
+        },
+        {
+            "id": "827",
+            "label": "",
+            "from": "733",
+            "to": "813"
+        },
+        {
+            "id": "828",
+            "label": "",
+            "from": "733",
+            "to": "814"
+        },
+        {
+            "id": "831",
+            "label": "AND\n",
+            "from": "813",
+            "to": "814"
+        },
+        {
+            "id": "835",
+            "label": "",
+            "from": "834",
+            "to": "832"
+        },
+        {
+            "id": "836",
+            "label": "",
+            "from": "834",
+            "to": "833"
+        },
+        {
+            "id": "837",
+            "label": "",
+            "from": "814",
+            "to": "834"
+        },
+        {
+            "id": "838",
+            "label": "",
+            "from": "813",
+            "to": "834"
+        },
+        {
+            "id": "839",
+            "label": "",
+            "from": "812",
+            "to": "834"
+        },
+        {
+            "id": "842",
+            "label": "",
+            "from": "832",
+            "to": "840"
+        },
+        {
+            "id": "843",
+            "label": "",
+            "from": "833",
+            "to": "841"
+        },
+        {
+            "id": "846",
+            "label": "",
+            "from": "702",
+            "to": "845"
+        },
+        {
+            "id": "854",
+            "label": "",
+            "from": "845",
+            "to": "851"
+        },
+        {
+            "id": "855",
+            "label": "",
+            "from": "845",
+            "to": "852"
+        },
+        {
+            "id": "858",
+            "label": "",
+            "from": "851",
+            "to": "856"
+        },
+        {
+            "id": "860",
+            "label": "",
+            "from": "852",
+            "to": "859"
+        },
+        {
+            "id": "863",
+            "label": "",
+            "from": "859",
+            "to": "862"
+        },
+        {
+            "id": "864",
+            "label": "",
+            "from": "859",
+            "to": "861"
+        },
+        {
+            "id": "866",
+            "label": "",
+            "from": "862",
+            "to": "865"
+        },
+        {
+            "id": "869",
+            "label": "",
+            "from": "861",
+            "to": "868"
+        },
+        {
+            "id": "872",
+            "label": "",
+            "from": "868",
+            "to": "871"
+        },
+        {
+            "id": "873",
+            "label": "",
+            "from": "868",
+            "to": "870"
+        },
+        {
+            "id": "877",
+            "label": "",
+            "from": "870",
+            "to": "876"
+        },
+        {
+            "id": "878",
+            "label": "",
+            "from": "876",
+            "to": "875"
+        },
+        {
+            "id": "879",
+            "label": "",
+            "from": "876",
+            "to": "874"
+        },
+        {
+            "id": "882",
+            "label": "",
+            "from": "871",
+            "to": "1348"
+        },
+        {
+            "id": "885",
+            "label": "",
+            "from": "1348",
+            "to": "884"
+        },
+        {
+            "id": "886",
+            "label": "",
+            "from": "1348",
+            "to": "883"
+        },
+        {
+            "id": "889",
+            "label": "",
+            "from": "884",
+            "to": "887"
+        },
+        {
+            "id": "892",
+            "label": "",
+            "from": "883",
+            "to": "891"
+        },
+        {
+            "id": "894",
+            "label": "",
+            "from": "875",
+            "to": "893"
+        },
+        {
+            "id": "896",
+            "label": "",
+            "from": "874",
+            "to": "895"
+        },
+        {
+            "id": "902",
+            "label": "",
+            "from": "701",
+            "to": "1349"
+        },
+        {
+            "id": "903",
+            "label": "",
+            "from": "701",
+            "to": "1350"
+        },
+        {
+            "id": "904",
+            "label": "",
+            "from": "701",
+            "to": "1351"
+        },
+        {
+            "id": "906",
+            "label": "",
+            "from": "1351",
+            "to": "905"
+        },
+        {
+            "id": "909",
+            "label": "",
+            "from": "645",
+            "to": "1351"
+        },
+        {
+            "id": "912",
+            "label": "",
+            "from": "905",
+            "to": "907"
+        },
+        {
+            "id": "913",
+            "label": "",
+            "from": "905",
+            "to": "910"
+        },
+        {
+            "id": "914",
+            "label": "",
+            "from": "905",
+            "to": "911"
+        },
+        {
+            "id": "915",
+            "label": "OR\n",
+            "from": "907",
+            "to": "910"
+        },
+        {
+            "id": "920",
+            "label": "",
+            "from": "919",
+            "to": "917"
+        },
+        {
+            "id": "921",
+            "label": "",
+            "from": "919",
+            "to": "918"
+        },
+        {
+            "id": "922",
+            "label": "",
+            "from": "907",
+            "to": "919"
+        },
+        {
+            "id": "923",
+            "label": "",
+            "from": "910",
+            "to": "919"
+        },
+        {
+            "id": "925",
+            "label": "OR\n",
+            "from": "910",
+            "to": "911"
+        },
+        {
+            "id": "926",
+            "label": "",
+            "from": "911",
+            "to": "919"
+        },
+        {
+            "id": "928",
+            "label": "",
+            "from": "917",
+            "to": "927"
+        },
+        {
+            "id": "932",
+            "label": "",
+            "from": "918",
+            "to": "929"
+        },
+        {
+            "id": "933",
+            "label": "",
+            "from": "929",
+            "to": "930"
+        },
+        {
+            "id": "935",
+            "label": "",
+            "from": "1350",
+            "to": "934"
+        },
+        {
+            "id": "943",
+            "label": "",
+            "from": "934",
+            "to": "937"
+        },
+        {
+            "id": "944",
+            "label": "",
+            "from": "934",
+            "to": "938"
+        },
+        {
+            "id": "945",
+            "label": "",
+            "from": "934",
+            "to": "939"
+        },
+        {
+            "id": "947",
+            "label": "",
+            "from": "934",
+            "to": "941"
+        },
+        {
+            "id": "949",
+            "label": "OR\n",
+            "from": "937",
+            "to": "938"
+        },
+        {
+            "id": "951",
+            "label": "OR\n",
+            "from": "938",
+            "to": "939"
+        },
+        {
+            "id": "952",
+            "label": "OR\n",
+            "from": "939",
+            "to": "941"
+        },
+        {
+            "id": "978",
+            "label": "",
+            "from": "956",
+            "to": "977"
+        },
+        {
+            "id": "986",
+            "label": "",
+            "from": "1349",
+            "to": "980"
+        },
+        {
+            "id": "992",
+            "label": "",
+            "from": "980",
+            "to": "988"
+        },
+        {
+            "id": "993",
+            "label": "",
+            "from": "980",
+            "to": "987"
+        },
+        {
+            "id": "995",
+            "label": "",
+            "from": "988",
+            "to": "994"
+        },
+        {
+            "id": "1001",
+            "label": "",
+            "from": "987",
+            "to": "997"
+        },
+        {
+            "id": "1002",
+            "label": "",
+            "from": "987",
+            "to": "998"
+        },
+        {
+            "id": "1008",
+            "label": "",
+            "from": "1007",
+            "to": "1005"
+        },
+        {
+            "id": "1009",
+            "label": "",
+            "from": "1007",
+            "to": "1006"
+        },
+        {
+            "id": "1010",
+            "label": "",
+            "from": "987",
+            "to": "1007"
+        },
+        {
+            "id": "1011",
+            "label": "",
+            "from": "997",
+            "to": "1007"
+        },
+        {
+            "id": "1012",
+            "label": "",
+            "from": "998",
+            "to": "1007"
+        },
+        {
+            "id": "1013",
+            "label": "OR\n",
+            "from": null,
+            "to": "997"
+        },
+        {
+            "id": "1016",
+            "label": "OR\n",
+            "from": "997",
+            "to": "998"
+        },
+        {
+            "id": "1017",
+            "label": "",
+            "from": "1005",
+            "to": "994"
+        },
+        {
+            "id": "1024",
+            "label": "AND\n",
+            "from": "731",
+            "to": "1023"
+        },
+        {
+            "id": "1026",
+            "label": "AND\n",
+            "from": "1023",
+            "to": "1025"
+        },
+        {
+            "id": "1029",
+            "label": "AND\n",
+            "from": "1025",
+            "to": "1028"
+        },
+        {
+            "id": "1048",
+            "label": "AND\n",
+            "from": "1036",
+            "to": "1047"
+        },
+        {
+            "id": "1049",
+            "label": "AND\n",
+            "from": "1035",
+            "to": "1047"
+        },
+        {
+            "id": "1050",
+            "label": "AND\n",
+            "from": "1034",
+            "to": "1047"
+        },
+        {
+            "id": "1070",
+            "label": "AND\n",
+            "from": "812",
+            "to": "813"
+        },
+        {
+            "id": "1084",
+            "label": "",
+            "from": "365",
+            "to": "370"
+        },
+        {
+            "id": "1085",
+            "label": "",
+            "from": "365",
+            "to": "374"
+        },
+        {
+            "id": "1092",
+            "label": "",
+            "from": "365",
+            "to": "375"
+        },
+        {
+            "id": "1093",
+            "label": "",
+            "from": "365",
+            "to": "376"
+        },
+        {
+            "id": "1094",
+            "label": "",
+            "from": "365",
+            "to": "377"
+        },
+        {
+            "id": "1095",
+            "label": "",
+            "from": "365",
+            "to": "379"
+        },
+        {
+            "id": "1114",
+            "label": "",
+            "from": "1054",
+            "to": "1113"
+        },
+        {
+            "id": "1119",
+            "label": "",
+            "from": "1113",
+            "to": "1116"
+        },
+        {
+            "id": "1120",
+            "label": "",
+            "from": "1113",
+            "to": "1117"
+        },
+        {
+            "id": "1121",
+            "label": "OR\n",
+            "from": "1116",
+            "to": "1117"
+        },
+        {
+            "id": "1124",
+            "label": "",
+            "from": "1116",
+            "to": "1123"
+        },
+        {
+            "id": "1129",
+            "label": "",
+            "from": "1123",
+            "to": "1126"
+        },
+        {
+            "id": "1130",
+            "label": "",
+            "from": "1123",
+            "to": "1125"
+        },
+        {
+            "id": "1135",
+            "label": "",
+            "from": "1126",
+            "to": "1132"
+        },
+        {
+            "id": "1136",
+            "label": "",
+            "from": "1125",
+            "to": "1133"
+        },
+        {
+            "id": "1139",
+            "label": "",
+            "from": "1117",
+            "to": "1138"
+        },
+        {
+            "id": "1140",
+            "label": "AND\n",
+            "from": "1028",
+            "to": "1036"
+        },
+        {
+            "id": "1141",
+            "label": "AND\n",
+            "from": "1028",
+            "to": "1035"
+        },
+        {
+            "id": "1142",
+            "label": "AND\n",
+            "from": "1028",
+            "to": "1034"
+        },
+        {
+            "id": "1149",
+            "label": "",
+            "from": "1138",
+            "to": "1143"
+        },
+        {
+            "id": "1150",
+            "label": "",
+            "from": "1138",
+            "to": "1144"
+        },
+        {
+            "id": "1151",
+            "label": "",
+            "from": "1138",
+            "to": "1145"
+        },
+        {
+            "id": "1152",
+            "label": "",
+            "from": "1138",
+            "to": "1148"
+        },
+        {
+            "id": "1153",
+            "label": "OR\n",
+            "from": "1143",
+            "to": "1144"
+        },
+        {
+            "id": "1154",
+            "label": "OR\n",
+            "from": "1144",
+            "to": "1145"
+        },
+        {
+            "id": "1159",
+            "label": "",
+            "from": "1158",
+            "to": "1156"
+        },
+        {
+            "id": "1160",
+            "label": "",
+            "from": "1158",
+            "to": "1157"
+        },
+        {
+            "id": "1162",
+            "label": "",
+            "from": "1143",
+            "to": "1158"
+        },
+        {
+            "id": "1164",
+            "label": "",
+            "from": "1145",
+            "to": "1158"
+        },
+        {
+            "id": "1165",
+            "label": "",
+            "from": "1148",
+            "to": "1158"
+        },
+        {
+            "id": "1168",
+            "label": "",
+            "from": "1157",
+            "to": "1166"
+        },
+        {
+            "id": "1169",
+            "label": "",
+            "from": "1156",
+            "to": "1167"
+        },
+        {
+            "id": "1172",
+            "label": "",
+            "from": "1055",
+            "to": "1171"
+        },
+        {
+            "id": "1175",
+            "label": "",
+            "from": "1171",
+            "to": "1174"
+        },
+        {
+            "id": "1176",
+            "label": "",
+            "from": "1171",
+            "to": "1173"
+        },
+        {
+            "id": "1179",
+            "label": "",
+            "from": "1173",
+            "to": "1178"
+        },
+        {
+            "id": "1180",
+            "label": "",
+            "from": "1174",
+            "to": "1177"
+        },
+        {
+            "id": "1193",
+            "label": "",
+            "from": "1185",
+            "to": "1184"
+        },
+        {
+            "id": "1194",
+            "label": "",
+            "from": "1185",
+            "to": "1188"
+        },
+        {
+            "id": "1195",
+            "label": "",
+            "from": "1185",
+            "to": "1189"
+        },
+        {
+            "id": "1196",
+            "label": "",
+            "from": "1185",
+            "to": "1190"
+        },
+        {
+            "id": "1197",
+            "label": "",
+            "from": "1185",
+            "to": "1191"
+        },
+        {
+            "id": "1198",
+            "label": "",
+            "from": "1185",
+            "to": "1192"
+        },
+        {
+            "id": "1202",
+            "label": "",
+            "from": "1201",
+            "to": "1199"
+        },
+        {
+            "id": "1203",
+            "label": "",
+            "from": "1201",
+            "to": "1200"
+        },
+        {
+            "id": "1210",
+            "label": "OR\n",
+            "from": "1184",
+            "to": "1188"
+        },
+        {
+            "id": "1211",
+            "label": "OR\n",
+            "from": "1188",
+            "to": "1189"
+        },
+        {
+            "id": "1212",
+            "label": "OR\n",
+            "from": "1189",
+            "to": "1190"
+        },
+        {
+            "id": "1214",
+            "label": "OR\n",
+            "from": "1190",
+            "to": "1191"
+        },
+        {
+            "id": "1217",
+            "label": "OR\n",
+            "from": "1191",
+            "to": "1192"
+        },
+        {
+            "id": "1227",
+            "label": "",
+            "from": "1220",
+            "to": "1222"
+        },
+        {
+            "id": "1229",
+            "label": "",
+            "from": "1220",
+            "to": "1224"
+        },
+        {
+            "id": "1230",
+            "label": "",
+            "from": "1220",
+            "to": "1225"
+        },
+        {
+            "id": "1231",
+            "label": "",
+            "from": "1220",
+            "to": "1226"
+        },
+        {
+            "id": "1232",
+            "label": "OR\n",
+            "from": "1222",
+            "to": "1223"
+        },
+        {
+            "id": "1233",
+            "label": "OR\n",
+            "from": "1223",
+            "to": "1224"
+        },
+        {
+            "id": "1234",
+            "label": "OR\n",
+            "from": "1224",
+            "to": "1225"
+        },
+        {
+            "id": "1236",
+            "label": "OR\n",
+            "from": "1225",
+            "to": "1226"
+        },
+        {
+            "id": "1242",
+            "label": "",
+            "from": "1222",
+            "to": "1239"
+        },
+        {
+            "id": "1243",
+            "label": "",
+            "from": "1223",
+            "to": "1239"
+        },
+        {
+            "id": "1244",
+            "label": "",
+            "from": "1224",
+            "to": "1239"
+        },
+        {
+            "id": "1245",
+            "label": "",
+            "from": "1225",
+            "to": "1239"
+        },
+        {
+            "id": "1246",
+            "label": "",
+            "from": "1226",
+            "to": "1239"
+        },
+        {
+            "id": "1252",
+            "label": "",
+            "from": "1058",
+            "to": "1251"
+        },
+        {
+            "id": "1261",
+            "label": "OR\n",
+            "from": "1253",
+            "to": "1254"
+        },
+        {
+            "id": "1262",
+            "label": "OR\n",
+            "from": "1254",
+            "to": "1255"
+        },
+        {
+            "id": "1263",
+            "label": "OR\n",
+            "from": "1255",
+            "to": "1256"
+        },
+        {
+            "id": "1267",
+            "label": "",
+            "from": "1266",
+            "to": "1264"
+        },
+        {
+            "id": "1268",
+            "label": "",
+            "from": "1266",
+            "to": "1265"
+        },
+        {
+            "id": "1269",
+            "label": "",
+            "from": "1253",
+            "to": "1266"
+        },
+        {
+            "id": "1270",
+            "label": "",
+            "from": "1254",
+            "to": "1266"
+        },
+        {
+            "id": "1271",
+            "label": "",
+            "from": "1255",
+            "to": "1266"
+        },
+        {
+            "id": "1272",
+            "label": "",
+            "from": "1256",
+            "to": "1266"
+        },
+        {
+            "id": "1274",
+            "label": "",
+            "from": "1264",
+            "to": "1273"
+        },
+        {
+            "id": "1276",
+            "label": "",
+            "from": "1265",
+            "to": "1275"
+        },
+        {
+            "id": "1278",
+            "label": "",
+            "from": "1273",
+            "to": "1277"
+        },
+        {
+            "id": "1280",
+            "label": "",
+            "from": "1277",
+            "to": "1279"
+        },
+        {
+            "id": "1285",
+            "label": "",
+            "from": "1059",
+            "to": "1282"
+        },
+        {
+            "id": "1286",
+            "label": "",
+            "from": "1282",
+            "to": "1283"
+        },
+        {
+            "id": "1287",
+            "label": "",
+            "from": "1282",
+            "to": "1284"
+        },
+        {
+            "id": "1288",
+            "label": "AND\n",
+            "from": "1283",
+            "to": "1284"
+        },
+        {
+            "id": "1292",
+            "label": "",
+            "from": "1291",
+            "to": "1289"
+        },
+        {
+            "id": "1293",
+            "label": "",
+            "from": "1291",
+            "to": "1290"
+        },
+        {
+            "id": "1294",
+            "label": "",
+            "from": "1283",
+            "to": "1291"
+        },
+        {
+            "id": "1295",
+            "label": "",
+            "from": "1284",
+            "to": "1291"
+        },
+        {
+            "id": "1302",
+            "label": "",
+            "from": "1298",
+            "to": "1301"
+        },
+        {
+            "id": "1303",
+            "label": "",
+            "from": "1298",
+            "to": "1300"
+        },
+        {
+            "id": "1307",
+            "label": "",
+            "from": "1301",
+            "to": "1304"
+        },
+        {
+            "id": "1310",
+            "label": "",
+            "from": "1290",
+            "to": "1309"
+        },
+        {
+            "id": "1315",
+            "label": "",
+            "from": "1311",
+            "to": "1314"
+        },
+        {
+            "id": "1318",
+            "label": "",
+            "from": "1060",
+            "to": "1316"
+        },
+        {
+            "id": "1320",
+            "label": "",
+            "from": "1061",
+            "to": "1319"
+        },
+        {
+            "id": "1325",
+            "label": "",
+            "from": "1319",
+            "to": "1321"
+        },
+        {
+            "id": "1326",
+            "label": "",
+            "from": "1319",
+            "to": "1322"
+        },
+        {
+            "id": "1327",
+            "label": "",
+            "from": "1319",
+            "to": "1323"
+        },
+        {
+            "id": "1328",
+            "label": "OR\n",
+            "from": "1321",
+            "to": "1322"
+        },
+        {
+            "id": "1329",
+            "label": "OR\n",
+            "from": "1322",
+            "to": "1323"
+        },
+        {
+            "id": "1333",
+            "label": "",
+            "from": "1332",
+            "to": "1330"
+        },
+        {
+            "id": "1334",
+            "label": "",
+            "from": "1332",
+            "to": "1331"
+        },
+        {
+            "id": "1335",
+            "label": "",
+            "from": "1321",
+            "to": "1332"
+        },
+        {
+            "id": "1336",
+            "label": "",
+            "from": "1322",
+            "to": "1332"
+        },
+        {
+            "id": "1337",
+            "label": "",
+            "from": "1323",
+            "to": "1332"
+        },
+        {
+            "id": "1339",
+            "label": "",
+            "from": "1330",
+            "to": "1338"
+        },
+        {
+            "id": "1341",
+            "label": "",
+            "from": "1331",
+            "to": "1340"
+        },
+        {
+            "id": "1347",
+            "label": "",
+            "from": "957",
+            "to": "975"
+        },
+        {
+            "id": "1355",
+            "label": "",
+            "from": "58",
+            "to": "584"
+        },
+        {
+            "id": "1356",
+            "label": "",
+            "from": "62",
+            "to": "584"
+        },
+        {
+            "id": "1357",
+            "label": "",
+            "from": "66",
+            "to": "584"
+        },
+        {
+            "id": "1358",
+            "label": "",
+            "from": "81",
+            "to": "584"
+        },
+        {
+            "id": "1366",
+            "label": "",
+            "from": "217",
+            "to": "23"
+        },
+        {
+            "id": "1367",
+            "label": "",
+            "from": "184",
+            "to": "217"
+        },
+        {
+            "id": "1368",
+            "label": "",
+            "from": "186",
+            "to": "217"
+        },
+        {
+            "id": "1370",
+            "label": "",
+            "from": "188",
+            "to": "217"
+        },
+        {
+            "id": "1371",
+            "label": "OR\n",
+            "from": "207",
+            "to": "233"
+        },
+        {
+            "id": "1372",
+            "label": "",
+            "from": "198",
+            "to": "217"
+        },
+        {
+            "id": "1373",
+            "label": "",
+            "from": "204",
+            "to": "217"
+        },
+        {
+            "id": "1374",
+            "label": "",
+            "from": "207",
+            "to": "217"
+        },
+        {
+            "id": "1375",
+            "label": "",
+            "from": "233",
+            "to": "217"
+        },
+        {
+            "id": "1376",
+            "label": "",
+            "from": "235",
+            "to": "217"
+        },
+        {
+            "id": "1379",
+            "label": "",
+            "from": "1006",
+            "to": "1018"
+        },
+        {
+            "id": "1394",
+            "label": "",
+            "from": "1385",
+            "to": "1390"
+        },
+        {
+            "id": "1396",
+            "label": "",
+            "from": "1385",
+            "to": "1395"
+        },
+        {
+            "id": "1397",
+            "label": "",
+            "from": "1144",
+            "to": "1158"
+        },
+        {
+            "id": "1398",
+            "label": "OR\n",
+            "from": "1145",
+            "to": "1148"
+        },
+        {
+            "id": "1399",
+            "label": "",
+            "from": "1057",
+            "to": "1185"
+        },
+        {
+            "id": "1401",
+            "label": "",
+            "from": "1385",
+            "to": "1400"
+        },
+        {
+            "id": "1402",
+            "label": "",
+            "from": "1184",
+            "to": "1201"
+        },
+        {
+            "id": "1403",
+            "label": "",
+            "from": "1188",
+            "to": "1201"
+        },
+        {
+            "id": "1404",
+            "label": "",
+            "from": "1189",
+            "to": "1201"
+        },
+        {
+            "id": "1405",
+            "label": "",
+            "from": "1190",
+            "to": "1201"
+        },
+        {
+            "id": "1406",
+            "label": "",
+            "from": "1191",
+            "to": "1201"
+        },
+        {
+            "id": "1407",
+            "label": "",
+            "from": "1385",
+            "to": "1388"
+        },
+        {
+            "id": "1408",
+            "label": "",
+            "from": "1192",
+            "to": "1201"
+        },
+        {
+            "id": "1409",
+            "label": "",
+            "from": "1199",
+            "to": "1220"
+        },
+        {
+            "id": "1411",
+            "label": "",
+            "from": "1220",
+            "to": "1223"
+        },
+        {
+            "id": "1414",
+            "label": "",
+            "from": "1400",
+            "to": "1430"
+        },
+        {
+            "id": "1415",
+            "label": "",
+            "from": "1200",
+            "to": "1412"
+        },
+        {
+            "id": "1418",
+            "label": "",
+            "from": "1239",
+            "to": "1416"
+        },
+        {
+            "id": "1419",
+            "label": "",
+            "from": "1239",
+            "to": "1417"
+        },
+        {
+            "id": "1420",
+            "label": "",
+            "from": "1416",
+            "to": "1218"
+        },
+        {
+            "id": "1421",
+            "label": "",
+            "from": "1417",
+            "to": "1412"
+        },
+        {
+            "id": "1424",
+            "label": "",
+            "from": "1251",
+            "to": "1253"
+        },
+        {
+            "id": "1425",
+            "label": "",
+            "from": "1251",
+            "to": "1254"
+        },
+        {
+            "id": "1426",
+            "label": "",
+            "from": "1251",
+            "to": "1255"
+        },
+        {
+            "id": "1427",
+            "label": "",
+            "from": "1251",
+            "to": "1256"
+        },
+        {
+            "id": "1428",
+            "label": "",
+            "from": "1289",
+            "to": "1298"
+        },
+        {
+            "id": "1431",
+            "label": "",
+            "from": "1300",
+            "to": "1311"
+        },
+        {
+            "id": "1433",
+            "label": "",
+            "from": "370",
+            "to": "1432"
+        },
+        {
+            "id": "1437",
+            "label": "",
+            "from": "1432",
+            "to": "1436"
+        },
+        {
+            "id": "1442",
+            "label": "",
+            "from": "1438",
+            "to": "1441"
+        },
+        {
+            "id": "1446",
+            "label": "",
+            "from": "1441",
+            "to": "1444"
+        },
+        {
+            "id": "1452",
+            "label": "",
+            "from": "1436",
+            "to": "1385"
+        },
+        {
+            "id": "1456",
+            "label": "OR\n",
+            "from": "1036",
+            "to": "1035"
+        },
+        {
+            "id": "1457",
+            "label": "",
+            "from": "1441",
+            "to": "1436"
+        },
+        {
+            "id": "1459",
+            "label": "",
+            "from": "1432",
+            "to": "1438"
+        },
+        {
+            "id": "1464",
+            "label": "",
+            "from": "937",
+            "to": "958"
+        },
+        {
+            "id": "1465",
+            "label": "",
+            "from": "938",
+            "to": "958"
+        },
+        {
+            "id": "1466",
+            "label": "",
+            "from": "939",
+            "to": "958"
+        },
+        {
+            "id": "1467",
+            "label": "",
+            "from": "941",
+            "to": "958"
+        },
+        {
+            "id": "1468",
+            "label": "",
+            "from": "958",
+            "to": "956"
+        },
+        {
+            "id": "1469",
+            "label": "",
+            "from": "958",
+            "to": "957"
+        },
+        {
+            "id": "1715",
+            "label": "",
+            "from": "1056",
+            "to": "1181"
+        },
+        {
+            "id": "1716",
+            "label": "",
+            "from": "718",
+            "to": "731"
+        },
+        {
+            "id": "1717",
+            "label": "",
+            "from": "1034",
+            "to": "1044"
+        },
+        {
+            "id": "1718",
+            "label": "",
+            "from": "719",
+            "to": "1054"
+        },
+        {
+            "id": "1719",
+            "label": "",
+            "from": "719",
+            "to": "1055"
+        },
+        {
+            "id": "1720",
+            "label": "",
+            "from": "719",
+            "to": "1056"
+        },
+        {
+            "id": "1721",
+            "label": "",
+            "from": "719",
+            "to": "1057"
+        },
+        {
+            "id": "1722",
+            "label": "",
+            "from": "719",
+            "to": "1058"
+        },
+        {
+            "id": "1723",
+            "label": "",
+            "from": "719",
+            "to": "1051"
+        },
+        {
+            "id": "1724",
+            "label": "",
+            "from": "719",
+            "to": "1059"
+        },
+        {
+            "id": "1725",
+            "label": "",
+            "from": "719",
+            "to": "1060"
+        },
+        {
+            "id": "1726",
+            "label": "",
+            "from": "719",
+            "to": "1061"
+        },
+        {
+            "id": "1727",
+            "label": "",
+            "from": "700",
+            "to": "733"
+        },
+        {
+            "id": "1728",
+            "label": "",
+            "from": "700",
+            "to": "734"
+        },
+        {
+            "id": "1731",
+            "label": "",
+            "from": "736",
+            "to": "766"
+        },
+        {
+            "id": "1733",
+            "label": "",
+            "from": "409",
+            "to": "414"
+        },
+        {
+            "id": "1735",
+            "label": "",
+            "from": "18",
+            "to": "198"
+        },
+        {
+            "id": "1739",
+            "label": "OR\n",
+            "from": "1035",
+            "to": "1034"
+        },
+        {
+            "id": "1741",
+            "label": "",
+            "from": "538",
+            "to": "698"
+        },
+        {
+            "id": "1742",
+            "label": "",
+            "from": "572",
+            "to": "698"
+        },
+        {
+            "id": "1743",
+            "label": "",
+            "from": "1444",
+            "to": "1447"
+        },
+        {
+            "id": "1745",
+            "label": "",
+            "from": "443",
+            "to": "1744"
+        },
+        {
+            "id": "1747",
+            "label": "",
+            "from": "1744",
+            "to": "699"
+        },
+        {
+            "id": "1748",
+            "label": "",
+            "from": "1744",
+            "to": "700"
+        },
+        {
+            "id": "1749",
+            "label": "",
+            "from": "1744",
+            "to": "701"
+        },
+        {
+            "id": "1750",
+            "label": "",
+            "from": "1744",
+            "to": "702"
+        },
+        {
+            "id": "1755",
+            "label": "",
+            "from": "645",
+            "to": "1349"
+        },
+        {
+            "id": "1770",
+            "label": "",
+            "from": "977",
+            "to": "1768"
+        }
+    ]
+}
