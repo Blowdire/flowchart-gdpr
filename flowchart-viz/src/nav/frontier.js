@@ -22,6 +22,11 @@ function settle(g, startId, visited) {
     local.add(cur);
     if (!visited.includes(cur)) visited.push(cur);
     const step = resolveStep(cur, g);
+    // A step can cover more than its own node (an obligation block absorbs its
+    // duties and their detail) - those count as visited too.
+    for (const id of step.visits ?? []) {
+      if (!visited.includes(id)) visited.push(id);
+    }
     if (step.kind === "auto" && step.to != null) {
       cur = step.to;
       continue;

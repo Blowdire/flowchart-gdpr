@@ -1,6 +1,7 @@
 import { norm } from "./graphIndex.js";
 import { collectStatuses, collectObligations } from "./resolvers.js";
 import StepPrompt from "./StepPrompt.jsx";
+import ObligationList from "./ObligationList.jsx";
 import { S, truncate, fmtAnswer } from "./ui.js";
 
 export default function NavPanel({ nav }) {
@@ -61,31 +62,7 @@ export default function NavPanel({ nav }) {
 
       <div style={S.section}>
         <div style={S.sectionLabel}>Obligations ({obligationCount})</div>
-        {obligationGroups.length === 0 ? (
-          <div style={{ fontSize: 12, color: "#999" }}>None yet.</div>
-        ) : (
-          obligationGroups.map((grp) => (
-            <div key={grp.mainId}>
-              {grp.items.length > 1 && <div style={S.groupHead}>{grp.mainLabel}</div>}
-              <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 3 }}>
-                {grp.items.map((it) => {
-                  const seen = visitedSet.has(it.id);
-                  return (
-                    <li key={it.id}>
-                      <button
-                        onClick={() => jumpTo(it.id)}
-                        disabled={!seen}
-                        style={{ ...S.obligationChip, cursor: seen ? "pointer" : "default", opacity: seen ? 1 : 0.6 }}
-                      >
-                        {it.label || it.id}
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          ))
-        )}
+        <ObligationList groups={obligationGroups} visited={visitedSet} onJump={jumpTo} />
       </div>
 
       <div style={S.section}>

@@ -19,6 +19,10 @@ import { detectBranchGroup } from "./patterns/branchGroup.js";
 //       -> stop here. `continuations` are non-semantic "keep going" links for
 //          node types we don't interpret yet.
 //
+// Any step may also carry `visits: [nodeId]` - extra nodes the step covers
+// wholesale (an obligation block's duties and their detail), which the engine
+// marks visited on arrival.
+//
 // Adding a new scenario = adding a resolver keyed by reverse_engineering_type
 // (and, for a multi-node shape, a small module under patterns/).
 
@@ -117,14 +121,22 @@ function passThrough(node, g) {
 // "Data cannot be processed", ...). Most are terminal; some continue. We don't
 // prompt here - just flow through. Collected statuses are read off the visited
 // path (see collectStatuses) and shown in the panel.
+//
+// When a status has several outgoing edges they are not mutually exclusive
+// options - in the data they're independent obligations/questions that all
+// apply at once (e.g. "You are an independent data controller" -> an
+// obligation IF you've onboarded a processor, AND a follow-up question). So,
+// like obligations, this is a parallel fork behind a "Next" button, not a
+// single choice.
 function statusStep(node, g) {
   const outs = g.out(node.id);
   if (outs.length === 1) return { kind: "auto", to: outs[0].to };
   if (outs.length === 0) return { kind: "terminal", reason: "status reached" };
   return {
-    kind: "choice",
-    prompt: norm(node.label) || "Continue to",
-    options: outs.map((e, i) =>
+    kind: "fork",
+    prompt: norm(node.label),
+    reason: "status reached",
+    branches: outs.map((e, i) =>
       option(e.to, norm(e.label) || norm(g.node(e.to)?.label) || `Path ${i + 1}`, e.to),
     ),
   };
@@ -153,34 +165,68 @@ function ifCollectorStep(node, g) {
   return passThrough(node, g);
 }
 
-// Obligation / Obligations Node: a duty (or heading of duties) the path has
-// landed on. `control` bullets are detail; nested obligations/headings are just
-// more duties (collected, not navigated) - but the flowchart often *continues*
-// past them. Flatten through the whole obligation subtree to the real
-// downstream nodes and offer them as parallel branches behind a "Next" button.
+// Some obligation headings aren't typed "Obligations Node" in the source data -
+// e.g. an "unknown" node whose label is a plain-English preamble ("IF you have
+// onboarded a data processor, ensure the following:") but whose children are
+// entirely obligations. Recognise those by shape rather than by type.
+function isObligationHeading(nodeId, g) {
+  if (typeOf(g, nodeId) === "Obligations Node") return true;
+  const kids = g.out(nodeId).map((e) => typeOf(g, e.to));
+  return kids.length > 0 && kids.every((t) => t === "obligation" || t === "Obligations Node");
+}
+
+// An obligation's own *content* rather than a step in the flow: the control
+// bullets, their elements, and explanatory prose. These are never decisions, but
+// the flowchart does sometimes resume on the far side of them (a control leading
+// on to another obligation, an element feeding an IF collector), so they must be
+// walked through rather than treated as dead ends.
+const DETAIL_TYPES = new Set([
+  "control",
+  "Elements of control/obligation",
+  "Explanatory Node",
+]);
+
+const isObligationContent = (id, g) => {
+  const t = typeOf(g, id);
+  return DETAIL_TYPES.has(t) || t === "obligation" || isObligationHeading(id, g);
+};
+
+// Obligation / Obligations Node (or an obligation-shaped "unknown" node): a duty
+// (or heading of duties) the path has landed on. Flatten through the whole
+// obligation block - nested duties and all their detail - down to the real
+// downstream flow nodes, and offer those as parallel branches behind "Next".
 function obligationContinuations(nodeId, g, seen = new Set()) {
   const out = [];
   for (const e of g.out(nodeId)) {
     if (seen.has(e.to)) continue;
     seen.add(e.to);
-    const t = typeOf(g, e.to);
-    if (t === "control") continue;
-    if (t === "obligation" || t === "Obligations Node") {
-      out.push(...obligationContinuations(e.to, g, seen));
-    } else {
-      out.push(e.to);
-    }
+    if (isObligationContent(e.to, g)) out.push(...obligationContinuations(e.to, g, seen));
+    else out.push(e.to);
   }
   return out;
 }
 
+// Every node making up this obligation block, so the engine can mark the whole
+// thing visited when the user passes through it.
+function obligationSubtree(nodeId, g, seen = new Set([nodeId])) {
+  const ids = [];
+  for (const e of g.out(nodeId)) {
+    if (seen.has(e.to) || !isObligationContent(e.to, g)) continue;
+    seen.add(e.to);
+    ids.push(e.to, ...obligationSubtree(e.to, g, seen));
+  }
+  return ids;
+}
+
 function obligationForkStep(node, g, reason) {
+  const visits = obligationSubtree(node.id, g);
   const ids = [...new Set(obligationContinuations(node.id, g))];
-  if (ids.length === 0) return { kind: "terminal", reason };
+  if (ids.length === 0) return { kind: "terminal", reason, visits };
   return {
     kind: "fork",
     prompt: norm(node.label),
     reason,
+    visits,
     branches: ids.map((id, i) => option(id, norm(g.node(id)?.label) || `Branch ${i + 1}`, id)),
   };
 }
@@ -202,36 +248,78 @@ const RESOLVERS = {
 // heading. A lone obligation forms a group of one.
 export function collectObligations(path, g) {
   const visited = new Set(path);
-  const isHeading = (id) => typeOf(g, id) === "Obligations Node";
+
+  // A heading can have several parents (the same duties are reused under more
+  // than one heading), so look across all in-edges, not just the first.
+  const headingParent = (id) =>
+    g.in(id).map((e) => e.from).find((p) => isObligationHeading(p, g) && visited.has(p));
 
   const mains = [];
   for (const id of path) {
     const t = typeOf(g, id);
-    if (t !== "Obligations Node" && t !== "obligation") continue;
+    let mainId;
+    if (isObligationHeading(id, g)) mainId = id;
+    else if (t === "obligation") mainId = g.in(id)[0]?.from ?? id;
+    else continue;
 
-    let mainId = t === "obligation" ? g.in(id)[0]?.from ?? id : id;
-    // climb to the topmost visited Obligations Node
-    for (let p = g.in(mainId)[0]?.from; p && isHeading(p) && visited.has(p); p = g.in(p)[0]?.from) {
+    // climb to the topmost visited heading
+    const climbed = new Set([mainId]);
+    for (let p = headingParent(mainId); p && !climbed.has(p); p = headingParent(mainId)) {
+      climbed.add(p);
       mainId = p;
     }
     if (!mains.includes(mainId)) mains.push(mainId);
   }
 
-  return mains.map((mainId) => ({
-    mainId,
-    mainLabel: norm(g.node(mainId)?.label) || "Obligations",
-    items: descendantObligations(mainId, g),
-  }));
+  // Duties shared between overlapping headings belong to the first group that
+  // claims them, so nothing is listed twice.
+  const claimed = new Set();
+  return mains
+    .map((mainId) => ({
+      mainId,
+      mainLabel: norm(g.node(mainId)?.label) || "Obligations",
+      items: descendantObligations(mainId, g, new Set(), claimed),
+    }))
+    .filter((grp) => grp.items.length > 0);
 }
 
-function descendantObligations(mainId, g, seen = new Set()) {
+function descendantObligations(mainId, g, seen = new Set(), claimed = new Set()) {
   const items = [];
   for (const e of g.out(mainId)) {
     if (seen.has(e.to)) continue;
     seen.add(e.to);
     const t = typeOf(g, e.to);
-    if (t === "obligation") items.push({ id: e.to, label: norm(g.node(e.to).label) });
-    else if (t === "Obligations Node") items.push(...descendantObligations(e.to, g, seen));
+    if (t === "obligation") {
+      if (claimed.has(e.to)) continue;
+      claimed.add(e.to);
+      items.push({
+        id: e.to,
+        label: norm(g.node(e.to).label),
+        details: obligationDetails(e.to, g),
+      });
+    } else if (isObligationHeading(e.to, g)) {
+      items.push(...descendantObligations(e.to, g, seen, claimed));
+    }
+  }
+  return items;
+}
+
+// The substance of an obligation: its control ("Data Processing Agreement") and
+// the elements that control breaks down into, nested as they are in the chart.
+// These carry the actual requirements, so they're collected for display rather
+// than just walked past.
+function obligationDetails(nodeId, g, seen = new Set()) {
+  const items = [];
+  for (const e of g.out(nodeId)) {
+    const t = typeOf(g, e.to);
+    if (!DETAIL_TYPES.has(t) || seen.has(e.to)) continue;
+    seen.add(e.to);
+    items.push({
+      id: e.to,
+      label: norm(g.node(e.to).label),
+      type: t,
+      children: obligationDetails(e.to, g, seen),
+    });
   }
   return items;
 }
@@ -249,6 +337,13 @@ export function resolveStep(nodeId, g) {
 
   const resolver = RESOLVERS[node.reverse_engineering_type];
   if (resolver) return resolver(node, g);
+
+  // An unhandled type that fans out purely into obligations is an obligation
+  // heading in disguise (e.g. an "unknown"-typed "IF you have onboarded a data
+  // processor, ensure the following:" preamble) - treat it like one.
+  if (isObligationHeading(nodeId, g)) {
+    return obligationForkStep(node, g, `obligations reached (${node.reverse_engineering_type})`);
+  }
 
   // Type not handled yet: stop, but offer plain "continue" links so the user
   // isn't stuck while the remaining scenarios are built out.

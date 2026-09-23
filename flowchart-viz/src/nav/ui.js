@@ -45,6 +45,14 @@ export const S = {
   groupHead: {
     fontSize: 11, fontWeight: 700, color: "#7f2c22", margin: "6px 0 3px",
   },
+  detailToggle: {
+    fontSize: 11, fontWeight: 600, color: "#7f2c22",
+    cursor: "pointer", padding: "3px 0", userSelect: "none",
+  },
+  detailList: {
+    margin: "2px 0 4px", paddingLeft: 14, listStyle: "disc",
+    fontSize: 11, lineHeight: 1.45, color: "#4a3430",
+  },
   checkRow: { display: "flex", gap: 8, alignItems: "flex-start", fontSize: 12, cursor: "pointer" },
   sectionLabel: {
     fontSize: 10, textTransform: "uppercase", letterSpacing: 0.6, color: "#666", marginBottom: 6,
